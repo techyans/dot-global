@@ -1,27 +1,37 @@
-<div class="row">
-    <div class="col">
-        <div class="content">
-            <img src="{{asset('storage/images/20231204-190942-357444-Any desk.svg')}}" alt="" class="w-100">
-        </div>
+<div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-5 text-center">
+        <h2>Trusted Clientele</h2>
+        <p>DGT Offers services, including implementation, customization, integration, upgradation, and migrations.</p>
     </div>
-    <div class="col">
-        <div class="content">
-            <img src="{{asset('storage/images/20231204-190942-339382-Saudi aramco.svg')}}" alt="" class="w-100">
-        </div>
-    </div>
-    <div class="col">
-        <div class="content">
-            <img src="{{asset('storage/images/20231204-190942-597226-Deloitte.svg')}}" alt="" class="w-100">
-        </div>
-    </div>
-    <div class="col">
-        <div class="content">
-            <img src="{{asset('storage/images/20231204-190942-897824-IBM.svg')}}" alt="" class="w-100">
-        </div>
-    </div>
-    <div class="col">
-        <div class="content">
-            <img src="{{asset('storage/images/20231204-190942-848032-Tieto.svg')}}" alt="" class="w-100">
+</div>
+<div class="row justify-content-center brands">
+    <div class="col-10">
+        <div class="row">
+            <div class="col">
+                <div class="content d-flex align-items-center">
+                    <img src="{{asset('storage/images/20231210-185757-263907-any-desk.png')}}" alt="" class="w-100">
+                </div>
+            </div>
+            <div class="col">
+                <div class="content d-flex align-items-center">
+                    <img src="{{asset('storage/images/20231210-185757-358438-aramko.png')}}" alt="" class="w-100">
+                </div>
+            </div>
+            <div class="col">
+                <div class="content d-flex align-items-center">
+                    <img src="{{asset('storage/images/20231210-185757-739181-delloite.png')}}" alt="" class="w-100">
+                </div>
+            </div>
+            <div class="col">
+                <div class="content d-flex align-items-center">
+                    <img src="{{asset('storage/images/20231210-185757-337981-ibm.png')}}" alt="" class="w-100">
+                </div>
+            </div>
+            <div class="col">
+                <div class="content d-flex align-items-center">
+                    <img src="{{asset('storage/images/20231210-185757-189322-Tieto-evry.png')}}" alt="" class="w-100 p-3">
+                </div>
+            </div>
         </div>
     </div>
 </div>

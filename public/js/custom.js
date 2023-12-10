@@ -93,4 +93,14 @@ $('.index-page .testimonial .slides').slick({
     dots:true,
     arrows:false,
 })
+$('.index-page .home-top').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots:false,
+    arrows:false,
+    autoplay:true,
+    pauseOnHover: false,
+    fade:true,
+    autoplaySpeed:3000,
+})
   
