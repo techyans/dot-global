@@ -1,0 +1,670 @@
+:root{
+    --dark-bg:#000;
+    --dark-bg-color:#fff;
+    --brand-color:#1E9FE0;
+    --brand-color-secondary: #f85a40;
+    --brand-text-color:#1842b6;
+}
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* =====================Header======================= */
+
+header nav{
+     padding: 30px 0 0 0;
+}
+header .header-logo img{
+    width: 90px;
+}
+header nav ul{
+    list-style: none;
+    padding: 0;
+}
+header nav ul .top-nav-items{
+    display: inline-block;
+    margin: 0 25px 0 0;
+}
+header nav ul li a{
+    font-weight: 500;
+    font-size: 13px;
+    color: #1E1E1E;
+}
+header nav ul li a:hover{
+    color: var(--brand-color);
+}
+header .left-nav img{
+    max-width: 30px;
+    cursor: pointer;
+}
+/* ----mobile-menu---- */
+header .left-nav-bar{
+    height: 100vh;
+    width: 350px;
+    top: 0;
+    right: 0;
+    position: fixed;
+    overflow-y: auto; 
+    margin-right: -350px;
+    background: #fff;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;
+    z-index: 1032;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out
+}
+header .left-nav-drawer{
+    background: #0000006f;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1031; 
+    display: none;
+}
+header .left-nav-bar .logo img{
+    max-width: 100px;
+    width: 100%;
+    margin: 20px 0;
+}
+header .left-nav-bar .flags{
+    background: var(--dark-bg-color);
+    border: 1px solid #dee2e6;
+    padding: 0 10px;
+    border-radius: 5px;
+    left: 25px;
+    top:-13px;
+}
+header .left-nav-bar .flags img{
+    max-width: 20px;
+}
+header .left-nav-bar ul li{
+    margin: 2px 10px;
+}
+header .left-nav-bar ul li,header .left-nav-bar ul li a,header .left-nav-bar ul li a:hover,header .left-nav-bar .flags span{
+    color: #1E1E1E;
+    font-weight: 500;
+    font-size: 12px;
+}
+/*-----------Destop header design--------------*/
+header .company-dropdown ul {
+    padding: 10px 18px;
+    border: 0;
+    margin: 24px 0 0 0 !important;
+}
+header .company-dropdown ul li{
+    margin: 5px 0;
+}
+header .what-wedo-dropdown ul{
+    padding: 10px 18px;
+    border: 0;
+    margin: 24px 0 0 0 !important;
+    background: #FEFFFF;
+}
+header .what-wedo-dropdown ul .row{
+    margin: 0 0 5px 0;
+    padding: 7px 10px
+}
+header .what-wedo-dropdown ul .row:hover {
+    background: #2222223f;
+}
+header .what-wedo-dropdown ul li p {
+    font-size: 12px;
+}
+header .what-wedo-dropdown ul li ul{
+    margin: 0 !important;
+    background: #ffffff;
+    left: 16px !important;
+}
+header .what-wedo-dropdown ul li ul li{
+    margin: 7px;
+}
+header .what-wedo-dropdown ul li ul a{
+    font-size: 12px;
+}
+@media screen and (max-width: 767px) {
+    /* header nav .col-8{
+        text-align: start !important;
+    }
+    header nav .mobile-nav-bar{
+        text-align:  end;
+    }
+    header nav ul li{
+        display: block; 
+        margin: 10px 0 0 20px;
+    }
+    header nav ul li a,header nav .contacts a{
+        color: var(--dark-bg);
+        font-weight: 600;
+    }
+    header nav ul li a:hover,header nav .contacts a:hover{
+        color: var(--brand-color);
+    }
+    header nav .contacts p{
+        margin: 10px 0 0 20px;
+    } */
+}
+/* =====================Footer======================= */
+footer{
+    background: url('https://stage.dotglobaltech.com/storage/images/20231110-191438-908769-footer-background.jpg');
+}
+footer .footer-row{
+    background: #000000cb;
+    padding: 30px 0 0 0;
+}
+footer .logo img{
+    max-width: 120px;
+    width: 100%;
+}
+footer .about-dot p{
+    color: var(--dark-bg-color);
+    font-size: 12px;
+    margin: 20px 0;
+}
+footer h2{
+    color: var(--dark-bg-color);
+    font-size: 18px;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin: 0 0 20px 0;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+footer ul li{
+    margin: 0 0 5px 0;
+}
+footer ul li a{
+    color: var(--dark-bg-color);
+    font-size: 13px;
+    transition: .5s;
+    letter-spacing: .5px;
+}
+footer ul li a:hover{
+    letter-spacing: 1px;
+    color: var(--brand-color);
+}
+footer .social-media li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #f8f8f9;
+    border-radius: 2px;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+footer .social-media li a{
+    font-size: 14px;
+    color: #000;
+    
+}
+footer .copyright p{
+    color: var(--dark-bg-color);
+    margin: 10px 0;
+    font-size: 13px;
+}
+footer .subscriber input{
+    border: 0;
+    font-size: 13px;
+}
+footer .subscriber .btn,footer .subscriber .btn:hover{
+    background: var(--brand-color);
+    color: var(--dark-bg-color);
+    border: 0;
+    width: 70px;
+}
+
+/* =====================Index Page======================= */
+.index-page .top-section{
+    background: url('https://stage.dotglobaltech.com/storage/images/20231111-221620-481692-dgt-top-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center center;
+}
+.index-page .top-section .col-12{
+    background: #000000b7;
+    padding: 160px 0;
+}
+.index-page .top-section h1{
+    color: var(--brand-color);
+    font-weight: 700;
+    word-wrap: break-word;
+    font-size: 45px;
+}
+.index-page .top-section p{
+    color: var(--dark-bg-color);
+    font-size: 12px;
+}
+.index-page .top-section .btn{
+    border: 1.5px solid transparent;
+    border-image: linear-gradient(to bottom, var(--brand-color), purple);
+    border-image-slice: 1;
+    color: var(--dark-bg-color);
+    font-weight: 400;
+    font-size: 13px;
+    width: 150px;
+    padding: 8px 0;
+}
+.index-page .top-section .btn:hover{
+    border-radius: 0;
+    background: var(--brand-color);
+}
+/* -------our solution---------- */
+.index-page .our-solution h2{
+    color: #222222;
+    font-size: 30px;
+    font-weight: 600;
+}
+.index-page .our-solution .section{
+    background: #F7F7F7;
+    margin: 0 0 20px;
+    color: #222222;
+    border-radius: 50px;
+    font-size: 12px;
+    transition: .5s;
+    letter-spacing: .5px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 18px;
+}
+.index-page .our-solution .section i{
+    margin-left: 5px;
+    transition: .5s;
+}
+.index-page .our-solution .section:hover{
+    background: var(--brand-color);
+    color: var(--dark-bg-color);
+    letter-spacing: 1px;
+}
+.index-page .our-solution .section:hover i{
+    margin-left: 10px;
+    color: var(--dark-bg-color);
+}
+/* ---------counter section---------- */
+.index-page .counters i{
+    color: var(--dark-bg-color);
+    font-size: 25px;
+}
+.index-page .counters .value{
+    color: var(--dark-bg-color);
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+}
+.index-page .counters p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    word-wrap: break-word
+}
+/* ---------service brand section---------- */
+.index-page .service-brand{
+    padding: 50px 0;
+}
+.index-page .service-brand .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.index-page .service-brand .content img{
+    max-width: 180px;
+    max-height: 80px;
+}
+/* ---------emerging tech section---------- */
+.index-page .emerging-tech h2{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 40px 0 15px 0;
+    margin: 0;
+}
+.index-page .emerging-tech p{
+    font-size: 14px;
+    margin: 0;
+}
+.index-page .emerging-tech .content{
+    padding: 40px 0;
+}
+.index-page .emerging-tech .content p{
+    font-size: 12px;
+}
+.index-page .emerging-tech .content i{
+    background: #93939321;
+    padding: 6px;
+    border-radius: 2px;
+}
+.index-page .emerging-tech .content p:hover i{
+    color: var(--brand-color);
+    background: #1e9fe0b0;
+    color: var(--dark-bg-color);
+}
+.index-page .emerging-tech .content p:hover span{
+    border-bottom: 1.5px solid var(--brand-color);
+    padding: 10px 0;
+}
+.index-page .emerging-tech h3{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 40px 0;
+    margin: 0;
+    text-decoration:underline;
+    text-decoration-color: var(--brand-color);
+}
+.index-page .emerging-tech .bottom-content p{
+    font-size: 12px;
+}
+.index-page .emerging-tech .bottom-content i{
+    color: var(--brand-color);
+}
+.index-page .emerging-tech .bottom-content span{
+    text-decoration: underline;
+}
+/* ---------top notch section---------- */
+.index-page .top-notch {
+    padding: 30px 0;
+}
+.index-page .top-notch h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0 10px 0;
+}
+.index-page .top-notch .content{
+    height: 100%;
+    padding: 20px;
+    background: linear-gradient(to bottom, var(--brand-color) 0%, var(--brand-color) 50%, #ffffff 50%, #ffffff 100%);
+    background-size: 100% 200%; /* Initial background size */
+    transition: background-position 0.5s ease; /* Transition effect */
+    background-position: 0 100%;
+}
+.index-page .top-notch .content:hover{
+    background-position: 0 77%;
+}
+.index-page .top-notch .content:hover img{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(99deg) brightness(108%) contrast(101%);
+}
+.index-page .top-notch .content img{
+    width: 50px;
+    max-width: 50px;
+    margin: 0 0 15px 0;
+    height: 35px;
+}
+.index-page .top-notch .service-list{
+    padding: 0 0 0 15px;
+}
+.index-page .top-notch .service-list p{
+    font-size: 13px;
+    margin: 0 0 6px 0;
+}
+.index-page .top-notch .content .sp1{
+    background: #1e9fe09a;
+    height: 16px;
+    width: 16px;
+    border-radius: 100px;
+    position: absolute;
+    left: -18px;
+    top: 2px;
+}
+.index-page .top-notch .content .sp1 span{
+    height: 8px;
+    width: 8px;
+    background: var(--brand-color);
+    border-radius: 100px;
+    position: absolute;
+    margin: 4px
+}
+.index-page .top-notch .content .btn{
+    color: var(--dark-bg-color);
+    background: var(--brand-color);
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+/*---------technologies section---------- */
+.index-page .technologies .top-sec h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0 10px 0;
+}
+.index-page .technologies .tech-type h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #222222;
+}
+.index-page .technologies .slides{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 5px 0;
+}
+.index-page .technologies .slides img{
+    max-width: 80px;
+    width: 100%;
+    max-height: 50px;
+    height: 50px;
+}
+.index-page .technologies .next{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    background: var(--brand-color);
+    color: var(--dark-bg-color);
+    padding: 20px 2px 0 2px;
+}
+.index-page .technologies .heading p{
+    margin: 0 0 8px 0;
+}
+.index-page .technologies .section h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+    color: #222222;
+}
+.index-page .technologies .show-more .btn{
+    background: #F7F7F7;
+    font-size: 14px;
+    margin: 25px 0 40px 0;
+}
+/* ---------technologies section---------- */
+.index-page .bussiness-challange{
+    padding: 40px 0;
+}
+.index-page .bussiness-challange h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.index-page .bussiness-challange ul li{
+    display: inline-block;
+    list-style: none;
+}
+.index-page .bussiness-challange ul li p{
+    font-size: 12px;
+    margin: 0 0 0 10px;
+    top: 10px;
+}
+.index-page .bussiness-challange .img-heading .position-absolute{
+    top: 5px;
+    left: 35px;
+    font-size: 13px;
+}
+.index-page .bussiness-challange .details{
+    font-size: 13px;
+}
+.index-page .bussiness-challange .tools .content{
+    padding: 20px 20px;
+    background: white; 
+    box-shadow: 2px  rgba(0, 0, 0, 0.05); 
+    border-radius: 20px;
+    max-height: 120px;
+    height: 120px;
+    overflow: hidden;
+    margin-top: 20px;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    display: inline-flex
+}
+.index-page .bussiness-challange .tools p{
+    font-size: 13px;
+    margin: 5px 0;
+    text-align: center;
+}
+.index-page .bussiness-challange .tools .content img{
+    max-width: 70px;
+}
+.index-page .bussiness-challange .slick-dots {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.index-page .bussiness-challange .slick-dots button {
+    display: none;
+}
+.index-page .bussiness-challange .slick-dots li {
+    height: 10px;
+    width: 10px;
+    background: #fff;
+    border: 1px solid var(--brand-color);
+    border-radius: 30px;
+    margin: 0 3px;
+}
+.index-page .bussiness-challange .slick-dots li.slick-active {
+    width: 26px;
+    background: var(--brand-color);
+}
+/* ---------What we do section---------- */
+.index-page .wwd{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.index-page .wwd h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+}
+.index-page .wwd .nav-link{
+    font-size: 13px;
+    border-radius: 0;
+    padding: 12px 5px;
+    border-bottom: 1.5px solid #d9d9d9;
+    color: #222222;
+    position: relative;
+}
+.index-page .wwd .nav-link.active{
+    background: var(--brand-color);
+    border-bottom: 1px solid var(--brand-color);
+    color: var(--dark-bg-color);
+}
+.index-page .wwd .left-icon{
+    position: absolute;
+    left:10px
+}
+.index-page .wwd .bi-caret-right-fill{
+    position: absolute;
+    right:10px
+}
+.index-page .wwd .bi-caret-right-fill{
+    position: absolute;
+    right:10px
+}
+ 
+.index-page .wwd .right-content p{
+    font-size: 12px;
+    margin: 0 0 27px 0;
+}
+.index-page .wwd .right-content .content i{
+    background: #1e9fe09f;
+    padding: 6px 6px 3px 5px;
+    border-radius: 3px;
+}
+.index-page .wwd .right-content .btn{
+    background: #F7F7F7;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+    padding: 7px;
+}
+.index-page .wwd .right-content .btn:hover{
+    background: var(--brand-color);
+    color: var(--dark-bg-color);
+}
+/* ---------testimonial section---------- */
+.index-page .testimonial{
+    padding: 40px 0;
+}
+.index-page .testimonial h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+}
+.index-page .testimonial h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+}
+.index-page .testimonial .top-content p{
+    font-size: 12px;
+    margin: 0 0 30px 0;
+}
+.index-page .testimonial .images img{
+    max-height: 290px;
+}
+.index-page .testimonial ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 13px;
+    color: var(--dark-bg);
+}
+.index-page .testimonial ul li img{
+    max-width: 25px;
+    width: 100%;
+    border-radius: 10px;
+    display: inline-block;
+}
+.index-page .testimonial ul li i{
+    color: #A9A9A9;
+    font-size: 12px;
+}
+.index-page .testimonial ul li i.active{
+    color: #FED51B;
+}
+.index-page .testimonial .content p{
+    font-size: 13px;
+}
+.index-page .testimonial .slick-dots button{
+    display: none;
+}
+.index-page .testimonial .slick-dots{
+    text-align: center;
+}
+.index-page .testimonial .slick-dots li{
+    height: 10px;
+    width: 10px;
+    background: #fff;
+    border: 1px solid var(--brand-color);
+    border-radius: 30px;
+    margin: 0 3px;
+}
+.index-page .testimonial .slick-dots li.slick-active {
+    width: 26px;
+    background: var(--brand-color);
+}
+@media (max-width: 667px){
+    .index-page .testimonial ul li img{
+        display: none;
+    }
+}
+/* ========================= New Design ======================== */
