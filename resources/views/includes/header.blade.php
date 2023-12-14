@@ -19,7 +19,7 @@
     </head>
     <body>
         <div class="container-fluid p-0 gx-0">
-            <header>
+            <header class="d-none d-lg-block">
                 <nav class="row justify-content-center m-0">
                     <div class="col-md-11">
                         <div class="row">
@@ -31,13 +31,14 @@
                                     <ul>
                                         <li class="top-nav-items what-wedo-dropdown">
                                             <a href="#" id="what-wedo-dropdown" data-bs-toggle="dropdown" aria-expanded="false">What We Do <i class="fa-solid fa-chevron-down"></i></a>
-                                            <ul class="dropdown-menu shadow " aria-labelledby="what-wedo-dropdown">
-                                                @include('templates/mega-menu/what-we-do')
+                                            <ul class="dropdown-menu shadow first border" aria-labelledby="what-wedo-dropdown">
+                                                <div class="sub-menu position-relative"> @include('templates/mega-menu/what-we-do')</div>
+                                               
                                             </ul>
                                         </li>
                                         <li class="top-nav-items">
                                             <a href="#" id="offering-dropdown" data-bs-toggle="dropdown" aria-expanded="false">Offering <i class="fa-solid fa-chevron-down"></i></a>
-                                            <ul class="dropdown-menu" aria-labelledby="offering-dropdown">
+                                            <ul class="dropdown-menu first" aria-labelledby="offering-dropdown">
                                                 <li><a class="dropdown-item" href="#">Menu item</a></li>
                                                 <li><a class="dropdown-item" href="#">Menu item</a></li>
                                                 <li><a class="dropdown-item" href="#">Menu item</a></li>
@@ -47,7 +48,7 @@
                                         <li class="top-nav-items"><a href="{{url('/blogs')}}/">Staff Augmentation <i class="fa-solid fa-chevron-down"></i></a></li>
                                         <li class="top-nav-items company-dropdown">
                                             <a href="#" id="company-dropdown" data-bs-toggle="dropdown" aria-expanded="false">Company <i class="fa-solid fa-chevron-down"></i></a>
-                                            <ul class="dropdown-menu" aria-labelledby="company-dropdown">
+                                            <ul class="dropdown-menu first border" aria-labelledby="company-dropdown">
                                                 <li><a class="dropdown-item" href="#">About Us</a></li>
                                                 <li><a class="dropdown-item" href="#">Testimonials</a></li>
                                                 <li><a class="dropdown-item" href="#">Contact Us</a></li>

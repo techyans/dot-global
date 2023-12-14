@@ -1,4 +1,4 @@
-<li class="dropend">
+<li class="">
     <div class="row" data-bs-toggle="dropdown" aria-expanded="false">
         <div class="col-2"><img src="{{asset('storage/images/20231113-202415-267321-BMC.svg')}}" alt="" class="w-100"></div>
         <div class="col-10">
@@ -6,7 +6,7 @@
             <p class="m-0">Lorem Ipsum is simply dummy text of the printing.</p>
         </div>
     </div>
-    <ul class="dropdown-menu">
+    <ul class="dropdown-menu border" style="top:-10px !important;">
         <li><a class="dropdown-item" href="#">BMC Helix ITSM</a></li>
         <li><a class="dropdown-item" href="#">BMC Helix Remedyforce</a></li>
         <li><a class="dropdown-item" href="#">BMC Helix Discovery</a></li>
@@ -19,7 +19,7 @@
         <li><a class="dropdown-item" href="#">BMC Training</a></li>
     </ul>
 </li>
-<li class="dropend">
+<li class="">
     <div class="row" data-bs-toggle="dropdown" aria-expanded="false">
         <div class="col-2"><img src="{{asset('storage/images/20231113-202415-440047-Oracle.svg')}}" alt="" class="w-100"></div>
         <div class="col-10">
@@ -27,8 +27,8 @@
             <p class="m-0">Lorem Ipsum is simply dummy text of the printing.</p>
         </div>
     </div>
-    <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">BMC Helix ITSM</a></li>
+    <ul class="dropdown-menu border" style="top:-10px !important;">
+        <li><a class="dropdown-item" href="#">BMC Helix ITSM s</a></li>
         <li><a class="dropdown-item" href="#">BMC Helix Remedyforce</a></li>
         <li><a class="dropdown-item" href="#">BMC Helix Discovery</a></li>
         <li><a class="dropdown-item" href="#">BMC TrueSight</a></li>
@@ -48,6 +48,18 @@
             <p class="m-0">Lorem Ipsum is simply dummy text of the printing.</p>
         </div>
     </div>
+    <ul class="dropdown-menu border" style="top:-10px !important;">
+        <li><a class="dropdown-item" href="#">BMC Helix ITSM s</a></li>
+        <li><a class="dropdown-item" href="#">BMC Helix Remedyforce</a></li>
+        <li><a class="dropdown-item" href="#">BMC Helix Discovery</a></li>
+        <li><a class="dropdown-item" href="#">BMC TrueSight</a></li>
+        <li><a class="dropdown-item" href="#">BMC Control-M</a></li>
+        <li><a class="dropdown-item" href="#">BMC Smart Reporting</a></li>
+        <li><a class="dropdown-item" href="#">BMC Client Management</a></li>
+        <li><a class="dropdown-item" href="#">BMC Helix Digital Work Place</a></li>
+        <li><a class="dropdown-item" href="#">BMC BladeLogic</a></li>
+        <li><a class="dropdown-item" href="#">BMC Training</a></li>
+    </ul>
 </li>
 <li>
     <div class="row">
@@ -57,6 +69,18 @@
             <p class="m-0">Lorem Ipsum is simply dummy text of the printing.</p>
         </div>
     </div>
+    <ul class="dropdown-menu border" style="top:-10px !important;">
+        <li><a class="dropdown-item" href="#">BMC Helix ITSM s</a></li>
+        <li><a class="dropdown-item" href="#">BMC Helix Remedyforce</a></li>
+        <li><a class="dropdown-item" href="#">BMC Helix Discovery</a></li>
+        <li><a class="dropdown-item" href="#">BMC TrueSight</a></li>
+        <li><a class="dropdown-item" href="#">BMC Control-M</a></li>
+        <li><a class="dropdown-item" href="#">BMC Smart Reporting</a></li>
+        <li><a class="dropdown-item" href="#">BMC Client Management</a></li>
+        <li><a class="dropdown-item" href="#">BMC Helix Digital Work Place</a></li>
+        <li><a class="dropdown-item" href="#">BMC BladeLogic</a></li>
+        <li><a class="dropdown-item" href="#">BMC Training</a></li>
+    </ul>
 </li>
 <li>
     <div class="row">
@@ -66,6 +90,18 @@
             <p class="m-0">Lorem Ipsum is simply dummy text of the printing.</p>
         </div>
     </div>
+    <ul class="dropdown-menu border" style="top:-10px !important;">
+        <li><a class="dropdown-item" href="#">BMC Helix ITSM s</a></li>
+        <li><a class="dropdown-item" href="#">BMC Helix Remedyforce</a></li>
+        <li><a class="dropdown-item" href="#">BMC Helix Discovery</a></li>
+        <li><a class="dropdown-item" href="#">BMC TrueSight</a></li>
+        <li><a class="dropdown-item" href="#">BMC Control-M</a></li>
+        <li><a class="dropdown-item" href="#">BMC Smart Reporting</a></li>
+        <li><a class="dropdown-item" href="#">BMC Client Management</a></li>
+        <li><a class="dropdown-item" href="#">BMC Helix Digital Work Place</a></li>
+        <li><a class="dropdown-item" href="#">BMC BladeLogic</a></li>
+        <li><a class="dropdown-item" href="#">BMC Training</a></li>
+    </ul>
 </li>
 <li>
     <div class="row">
@@ -75,6 +111,18 @@
             <p class="m-0">Lorem Ipsum is simply dummy text of the printing.</p>
         </div>
     </div>
+    <ul class="dropdown-menu border" style="top:-10px !important;">
+        <li><a class="dropdown-item" href="#">BMC Helix ITSM s</a></li>
+        <li><a class="dropdown-item" href="#">BMC Helix Remedyforce</a></li>
+        <li><a class="dropdown-item" href="#">BMC Helix Discovery</a></li>
+        <li><a class="dropdown-item" href="#">BMC TrueSight</a></li>
+        <li><a class="dropdown-item" href="#">BMC Control-M</a></li>
+        <li><a class="dropdown-item" href="#">BMC Smart Reporting</a></li>
+        <li><a class="dropdown-item" href="#">BMC Client Management</a></li>
+        <li><a class="dropdown-item" href="#">BMC Helix Digital Work Place</a></li>
+        <li><a class="dropdown-item" href="#">BMC BladeLogic</a></li>
+        <li><a class="dropdown-item" href="#">BMC Training</a></li>
+    </ul>
 </li>
 <li>
     <div class="row">
@@ -84,16 +132,28 @@
             <p class="m-0">Lorem Ipsum is simply dummy text of the printing.</p>
         </div>
     </div>
+    <ul class="dropdown-menu border" style="top:-10px !important;">
+        <li><a class="dropdown-item" href="#">BMC Helix ITSM s</a></li>
+        <li><a class="dropdown-item" href="#">BMC Helix Remedyforce</a></li>
+        <li><a class="dropdown-item" href="#">BMC Helix Discovery</a></li>
+        <li><a class="dropdown-item" href="#">BMC TrueSight</a></li>
+        <li><a class="dropdown-item" href="#">BMC Control-M</a></li>
+        <li><a class="dropdown-item" href="#">BMC Smart Reporting</a></li>
+        <li><a class="dropdown-item" href="#">BMC Client Management</a></li>
+        <li><a class="dropdown-item" href="#">BMC Helix Digital Work Place</a></li>
+        <li><a class="dropdown-item" href="#">BMC BladeLogic</a></li>
+        <li><a class="dropdown-item" href="#">BMC Training</a></li>
+    </ul>
 </li>
-<li class="dropend">
-    <div class="row" data-bs-toggle="dropdown" aria-expanded="false">
+<li>
+    <div class="row">
         <div class="col-2"><img src="{{asset('storage/images/20231113-202415-784832-Sap.svg')}}" alt="" class="w-100"></div>
         <div class="col-10">
             <p class="m-0 fw-bold">Google Analytics</p>
             <p class="m-0">Lorem Ipsum is simply dummy text of the printing.</p>
         </div>
     </div>
-    <ul class="dropdown-menu">
+    <ul class="dropdown-menu border" style="top:-10px !important;">
         <li><a class="dropdown-item" href="#">BMC Helix ITSM</a></li>
         <li><a class="dropdown-item" href="#">BMC Helix Remedyforce</a></li>
         <li><a class="dropdown-item" href="#">BMC Helix Discovery</a></li>

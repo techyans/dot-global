@@ -10,6 +10,19 @@ $('body').on('click','header .left-nav-drawer',function(e){
     $('header .left-nav-drawer').hide();
     $('header .left-nav-bar').css('margin-right','-350%');
 })
+ 
+// $(".nav-lists .top-nav-items").mouseenter(function(){
+//     $(this).find(".first").stop(true, true).slideDown(300);
+//   });
+//   // Close mega menu on mouse leave
+//   $(".nav-lists .top-nav-items").mouseleave(function(){
+//     $(this).find(".first").stop(true, true).slideUp(300);
+//   });
+$(".first li").mouseenter(function(){
+    $('.first li').find(".dropdown-menu").removeClass('show');
+    $(this).find(".first").addClass('show');
+    $(this).find(".dropdown-menu").addClass('show');
+});
 
 $('.contact-us-page form').validate({
     rules:{
