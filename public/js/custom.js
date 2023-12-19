@@ -116,4 +116,38 @@ $('.index-page .home-top').slick({
     fade:true,
     autoplaySpeed:3000,
 })
+$('.index-page .trusted-client .slides').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    dots:false,
+    arrows:false,
+    infinite: false,
+    responsive: [
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+            }
+        }
+    ]
+})
+$('body').on('click','.wwd .mobile .accordion-header',function(e){
+    e.preventDefault();
+    // for change background color======================
+    if($(this).hasClass('active')){
+        $(this).toggleClass('active');
+    }else{
+        $('.wwd .mobile .accordion-header').removeClass('active');
+        $(this).addClass('active');
+    }
+
+    // for change toggle icon======================
+    if($(this).find('.toggle i').hasClass('bi-caret-down-fill')){
+        $(this).find('.toggle').html('<i class="bi bi-caret-right-fill"></i>');
+    }else if($(this).find('.toggle i').hasClass('bi-caret-right-fill')){
+        $('.wwd .mobile .accordion-header').find('.toggle').html('<i class="bi bi-caret-right-fill"></i>');
+        $(this).find('.toggle').html('<i class="bi bi-caret-down-fill"></i>');
+    }
+})
   

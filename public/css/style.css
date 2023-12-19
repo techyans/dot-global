@@ -231,7 +231,11 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
     border: 0;
     width: 70px;
 }
-
+@media screen and (max-width: 767px) {
+    footer .footer-row{
+        padding: 300px 0 0 0;
+    }
+}
 /* =====================Index Page======================= */
 .index-page .top-section{
     background: url('https://stage.dotglobaltech.com/storage/images/20231111-221620-481692-dgt-top-banner.jpg');
@@ -251,11 +255,11 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
     font-size: 45px;
 }
 .index-page .top-section h1>span{
-    background: linear-gradient(to bottom, #F7931E, #622F91);
-    position: relative;
-    background: linear-gradient(to bottom, #F7931E, #622F91); /* Define gradient colors */
-    -webkit-background-clip: text; /* Apply gradient as text fill for WebKit browsers */
-    color: transparent; /* Make the original text transparent */
+    background-image: linear-gradient(to bottom, #F7931E, #622F91); /* Your gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hides the text */
+    background-clip: text;
+    color: transparent; 
 }
 .index-page .top-section h1>span::after{
     content: attr(data-text); /* Use the text content from data-text attribute */
@@ -292,6 +296,18 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
     border-radius: 0;
     background: var(--brand-color);
 }
+@media screen and (max-width: 767px) {
+    .index-page .top-section .col-12{
+        padding: 60px 0;
+    }
+    .index-page .top-section h1{
+        font-size: 17px;
+    }
+    .index-page .top-section .btn-full,.index-page .top-section .grad{
+        font-size: 12px;
+        width: 120px;
+    }
+}
 /* -------Trusted client---------- */
 .index-page .trusted-client  {
     background: #F7F7F7;
@@ -317,7 +333,28 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
     background: #fff;
     border-radius: 100px;
     padding: 20px;
+}
 
+@media screen and (max-width: 767px) {
+    .index-page .trusted-client h2{
+        font-size: 17px;
+    }
+    .index-page .trusted-client p{
+        font-size: 12px;
+    }
+    .index-page .trusted-client .brands {
+        padding: 40px 0;
+    }
+    .index-page .trusted-client .brands .content{
+        max-width: 70px;
+        width: 100%;
+        max-height: 160px;
+        height: 70px;
+        padding: 10px;
+    }
+    .index-page .trusted-client .slick-slide {
+        margin: 0 4px;
+    }
 }
 /* -------our solution------------ */
 .index-page .our-solution h2{
@@ -351,6 +388,30 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
 .index-page .our-solution .section:hover i{
     margin-left: 10px;
     color: var(--dark-bg-color);
+}
+@media screen and (max-width: 767px) {
+    .index-page .our-solution h2{
+        font-size: 17px;
+        text-align: center;
+    }
+    .index-page .our-solution p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .index-page .our-solution .bottom-section{
+        margin: 20px 0 0 0;
+    }
+    .index-page .our-solution .section{
+        background: #F7F7F7;
+        margin: 0 0 20px;
+        padding: 5px;
+        border-radius: 50px;
+        font-size: 9px;
+        transition: .3s;
+        letter-spacing: .3px;
+        height: 40px;
+        line-height: 14px;
+    }
 }
 /* ---------counter section---------- */
 .index-page .counters .row{
@@ -554,6 +615,39 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
     font-size: 14px;
     margin: 25px 0 40px 0;
 }
+@media screen and (max-width: 767px) {
+    .index-page .technologies .top-sec h2{
+        font-size: 17px;
+    }
+    .index-page .technologies .top-sec p{
+        font-size: 12px;
+    }
+    .index-page .technologies .tech-type h3{
+        font-size: 15px;
+    }
+    .index-page .technologies .slides{
+        height: 50px;
+    }
+    .index-page .technologies .slide{
+        display: flex;
+        align-items: center;
+        height: 45px;
+    }
+    .index-page .technologies .slides img{
+        max-width: 45px;
+        width: 100%;
+        max-height: 30px;
+        height: 100%;
+    }
+    .index-page .technologies .next{
+        padding: 15px 2px 0 2px;
+        font-size: 14px;
+    }
+    .index-page .technologies .heading p,.index-page .technologies .section h3{
+        margin: 15px 0 7px;
+        font-size: 12px;
+    }
+}
 /* ---------Bussiness challange section---------- */
 .index-page .bussiness-challange{
     padding: 40px 0;
@@ -646,6 +740,9 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
         width: 7px;
         margin: 20px 4px 0 4px;
     }
+    .index-page .bussiness-challange .tools .content{
+        margin: 0;
+    }
     .index-page .bussiness-challange .tools .content img{
         max-width: 100%;
         padding: 20px;
@@ -681,11 +778,11 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
     position: absolute;
     left:10px
 }
-.index-page .wwd .bi-caret-right-fill{
+.index-page .wwd .desktop .bi-caret-right-fill{
     position: absolute;
     right:10px
 }
-.index-page .wwd .bi-caret-right-fill{
+.index-page .wwd .desktop .bi-caret-right-fill{
     position: absolute;
     right:10px
 }
@@ -708,6 +805,46 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
 .index-page .wwd .right-content .btn:hover{
     background: var(--brand-color);
     color: var(--dark-bg-color);
+}
+
+.index-page .wwd .mobile .accordion-header{
+    margin: 0;
+}
+.index-page .wwd .mobile .accordion-header .row{
+    padding: 0px 0 8px;
+}
+.index-page .wwd .mobile .accordion-header p{
+    margin: 10px 0 0 0;
+}
+.index-page .wwd .mobile .accordion-header.active{
+    background: var(--brand-color);
+    color: var(--dark-bg-color);
+}
+.index-page .wwd .mobile .service-icon i{
+    font-size: 16px;
+    text-align: center;
+}
+.index-page .wwd .mobile .toggle i{
+    font-size: 14px;
+}
+.index-page .wwd .accordion .row:not(.collapsed) .accordion-header{
+    color: #0c63e4;
+    background-color: #FEB7EE;
+}
+.index-page .wwd .mobile .accordion-item{
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+.index-page .wwd .mobile .details p{
+    font-size: 11px;
+}
+.index-page .wwd .mobile .content p{
+    margin: 15px 0 0 0;
+}
+.index-page .wwd .mobile .content i{
+    background: #1e9fe09f;
+    padding: 6px 6px 3px 5px;
+    border-radius: 3px;
 }
 /* ---------testimonial section---------- */
 .index-page .testimonial{
@@ -782,12 +919,12 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
     }
 }
 /* ---------Why choose us---------- */
+.wcu{
+    padding: 60px 0 180px 0;
+}
 .wcu .video-sec .top{
     position: absolute;
     margin: -18px 0 0 -18px;
-}
-.wcu{
-    padding: 60px 0 180px 0;
 }
 .wcu .video-sec .bottom{
     position: absolute;
@@ -864,5 +1001,41 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
 .wcu .custom-video::-webkit-media-controls-play-button {
   display: inline !important;
 }
-
+@media (max-width: 667px){
+    .wcu{
+        padding: 0 0 210px 0;
+    }
+    .wcu h2{
+        font-size: 17px;
+        text-align: center;
+        margin: 0 0 30px 0;
+    }
+    .wcu .video-sec{
+        padding: 0 25px;
+    }
+    .wcu .video-sec .top{
+        margin: -8px 0 0 -9px;
+        max-width: 65px;
+    }
+    .wcu .video-sec .bottom{
+        max-width: 65px;
+        bottom:0;
+        right: 5%;
+    }
+    .wcu .content{
+        padding: 25px 0 0 0;
+    }
+    .wcu .content ul li::before {
+        left: -10px;
+        top: 22%;
+    }
+    .wcu .form-section .position-absolute{
+        left:0;
+        margin: 0 20px;
+        padding: 15px 0;
+    }
+    .wcu .form-section p,.wcu .form-section li{
+        font-size: 12px;
+    }
+}
 /* ========================= New Design ======================== */

@@ -6,7 +6,7 @@
     <div class="col-12 tech-type">
         <h3>Web</h3>
     </div>
-    <div class="col-6 section">
+    <div class="col-12 col-md-6 col-lg-6 section">
         <div class="heading">
             <p>BACK END</p>
         </div>
@@ -17,7 +17,7 @@
             <div class="slide">
                 <img src="{{asset('storage/images/20231121-180703-781001-java-logo.svg')}}" alt="" class="w-100">
             </div>
-            <div class="slide">
+            <div class="slide d-flex align-items-center">
                 <img src="{{asset('storage/images/20231121-180746-727113-python_1.svg')}}" alt="" class="w-100">
             </div>
             <div class="slide">
@@ -28,7 +28,7 @@
             </div>
         </div>
     </div>
-    <div class="col-6">
+    <div class="col-12 col-md-6 col-lg-6">
         <div class="heading">
             <p>FRONT END</p>
         </div>
@@ -50,7 +50,7 @@
             </div>
         </div>
     </div>
-    <div class="col-6 section">
+    <div class="col-12 col-md-6 col-lg-6 section">
         <h3>Mobile</h3>
         <div class="slides">
             <div class="slide">
@@ -71,7 +71,7 @@
         </div>
     </div>
     
-    <div class="col-6 section">
+    <div class="col-12 col-md-6 col-lg-6 section">
         <h3>Desktop</h3>
         <div class="slides">
             <div class="slide">
@@ -91,7 +91,7 @@
             </div>
         </div>
     </div>
-    <div class="col-6 section">
+    <div class="col-12 col-md-6 col-lg-6 section">
         <h3>Platforms</h3>
         <div class="slides">
             <div class="slide">
@@ -111,7 +111,7 @@
             </div>
         </div>
     </div>
-    <div class="col-6 section">
+    <div class="col-12 col-md-6 col-lg-6 section">
         <h3>Clouds</h3>
         <div class="slides">
             <div class="slide">
