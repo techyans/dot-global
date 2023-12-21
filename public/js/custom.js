@@ -8,7 +8,7 @@ $('body').on('click','header .open-left-nav',function(e){
 $('body').on('click','header .left-nav-drawer',function(e){
     e.preventDefault();
     $('header .left-nav-drawer').hide();
-    $('header .left-nav-bar').css('margin-right','-350%');
+    $('header .left-nav-bar').css('margin-right','-320%');
 })
  
 // $(".nav-lists .top-nav-items").mouseenter(function(){

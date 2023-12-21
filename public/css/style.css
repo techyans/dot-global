@@ -49,12 +49,12 @@ header .left-nav img{
 /* ----mobile-menu---- */
 header .left-nav-bar{
     height: 100vh;
-    width: 350px;
+    width: 320px;
     top: 0;
     right: 0;
     position: fixed;
     overflow-y: auto; 
-    margin-right: -350px;
+    margin-right: -320px;
     background: #fff;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;
@@ -140,27 +140,33 @@ header .what-wedo-dropdown ul li ul a{
     top:0px !important;
 }
 @media screen and (max-width: 767px) {
-    /* header nav .col-8{
-        text-align: start !important;
-    }
-    header nav .mobile-nav-bar{
-        text-align:  end;
-    }
-    header nav ul li{
-        display: block; 
-        margin: 10px 0 0 20px;
-    }
-    header nav ul li a,header nav .contacts a{
-        color: var(--dark-bg);
-        font-weight: 600;
-    }
-    header nav ul li a:hover,header nav .contacts a:hover{
-        color: var(--brand-color);
-    }
-    header nav .contacts p{
-        margin: 10px 0 0 20px;
-    } */
+    header nav{
+        padding: 10px 0 0 0;
+   }
 }
+/*-----------Destop header design--------------*/
+header .mobile-nav .top .current-country,header .mobile-nav .top a{
+    font-size: 12px;
+    font-weight: 500;
+    color: #1E1E1E;
+}
+header .mobile-nav .top .current-country img{
+    max-width: 20px;
+}
+header .mobile-nav .top .side-nav img{
+    max-width: 25px;
+}
+header .mobile-nav .bottom {
+    border-top: 1px solid #D9D9D9;
+    padding: 4px 0;
+}
+header .mobile-nav .bottom i{
+    font-size: 28px;
+}
+header .mobile-nav .bottom img{
+    max-width: 80px;
+}
+
 /* =====================Footer======================= */
 footer{
     background: url('https://stage.dotglobaltech.com/storage/images/20231110-191438-908769-footer-background.jpg');
@@ -789,7 +795,10 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
  
 .index-page .wwd .right-content p{
     font-size: 12px;
-    margin: 0 0 27px 0;
+    margin: 0 0 20px 0;
+}
+.index-page .wwd .right-content img{
+    max-height: 280px;
 }
 .index-page .wwd .right-content .content i{
     background: #1e9fe09f;

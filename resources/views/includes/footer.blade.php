@@ -148,6 +148,6 @@
         <script type="text/javascript" src="{{ asset('js/jquery.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('js/jquery.validate.min.js') }}"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-        <script type="text/javascript" src="{{ asset('js/custom.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/custom.js') }}?v={{rand(11,99)}}"></script>
     </body>
 </html>

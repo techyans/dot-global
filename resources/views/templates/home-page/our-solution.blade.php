@@ -3,8 +3,7 @@
 </div>
 <div class="row">
     <div class="col-12 col-lg-6">
-        <p>We are proud to have earned  trust of 100+ clients across diverse industries with our dedication to IT excellence.</p>
-        <p>Here are a few of our esteemed technology partners.</p>
+        <p>Discover a suite of cutting-edge software solutions tailored to meet your diverse needs. Our software solutions elevate your digital experience from streamlined efficiency to enhanced security. Explore innovation, reliability, and performance in every solution we offer.</p>
         <img src="{{asset('storage/images/20231119-143605-149847-Our Solution Image.svg')}}" alt="" class="w-100">
     </div>
     <div class="col-12 col-lg-6 bottom-section">

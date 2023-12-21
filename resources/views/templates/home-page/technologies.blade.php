@@ -24,7 +24,13 @@
                 <img src="{{asset('storage/images/20231121-180723-940041-node-js-logo-small.svg')}}" alt="" class="w-100">
             </div>
             <div class="slide">
+                <img src="{{asset('storage/images/20231121-180703-363789-go-logo-blue.svg')}}" alt="" class="w-100">
+            </div>
+            <div class="slide">
                 <img src="{{asset('storage/images/20231121-180746-638885-php-logo.svg')}}" alt="" class="w-100">
+            </div>
+            <div class="slide">
+                <img src="{{asset('storage/images/20231121-180622-418667-c-sharp-logo.svg')}}" alt="" class="w-100">
             </div>
         </div>
     </div>
@@ -37,16 +43,25 @@
                 <img src="{{asset('storage/images/20231121-180703-845958-html.svg')}}" alt="" class="w-100">
             </div>
             <div class="slide">
-                <img src="{{asset('storage/images/20231121-180703-781001-java-logo.svg')}}" alt="" class="w-100">
+                <img src="{{asset('storage/images/20231121-180622-217202-css.svg')}}" alt="" class="w-100">
             </div>
             <div class="slide">
-                <img src="{{asset('storage/images/20231121-180622-217202-css.svg')}}" alt="" class="w-100">
+                <img src="{{asset('storage/images/20231121-180723-980868-javascript-logo.svg')}}" alt="" class="w-100">
             </div>
             <div class="slide">
                 <img src="{{asset('storage/images/20231121-180533-424879-angular-logo.svg')}}" alt="" class="w-100">
             </div>
             <div class="slide">
                 <img src="{{asset('storage/images/20231121-180746-147768-react-js-logo.svg')}}" alt="" class="w-100">
+            </div>
+            <div class="slide">
+                <img src="{{asset('storage/images/20231121-180723-774207-meteor.svg')}}" alt="" class="w-100">
+            </div>
+            <div class="slide">
+                <img src="{{asset('storage/images/20231121-180802-901303-vuejs-logo.svg')}}" alt="" class="w-100">
+            </div>
+            <div class="slide">
+                <img src="{{asset('storage/images/20231121-180703-802458-ember-logo.svg')}}" alt="" class="w-100">
             </div>
         </div>
     </div>
@@ -66,7 +81,10 @@
                 <img src="{{asset('storage/images/20231121-180622-828971-cordova-logo.svg')}}" alt="" class="w-100">
             </div>
             <div class="slide">
-                <img src="{{asset('storage/images/20231121-180746-147768-react-js-logo.svg')}}" alt="" class="w-100">
+                <img src="{{asset('storage/images/20231121-180746-705287-pwa-logo.svg')}}" alt="" class="w-100">
+            </div>
+            <div class="slide">
+                <img src="{{asset('storage/images/20231121-180703-191109-flutter-logo.svg')}}" alt="" class="w-100">
             </div>
         </div>
     </div>
@@ -87,7 +105,10 @@
                 <img src="{{asset('storage/images/20231121-180746-727113-python_1.svg')}}" alt="" class="w-100">
             </div>
             <div class="slide">
-                <img src="{{asset('storage/images/20231121-180746-909117-r_logo.svg')}}" alt="" class="w-100">
+                <img src="{{asset('storage/images/20231121-180723-133440-objective-c.svg')}}" alt="" class="w-100">
+            </div>
+            <div class="slide">
+                <img src="{{asset('storage/images/20231121-180802-354956-swift.svg')}}" alt="" class="w-100">
             </div>
         </div>
     </div>
@@ -107,7 +128,16 @@
                 <img src="{{asset('storage/images/20231121-180802-448431-sharepoint-logo-vertical.svg')}}" alt="" class="w-100">
             </div>
             <div class="slide">
-                <img src="{{asset('storage/images/20231121-180723-598241-ms-dynamics-365.svg')}}" alt="" class="w-100">
+                <img src="{{asset('storage/images/20231121-180802-668962-servicenow.svg')}}" alt="" class="w-100">
+            </div>
+            <div class="slide">
+                <img src="{{asset('storage/images/20231121-180746-304647-power-bi-2020.svg')}}" alt="" class="w-100">
+            </div>
+            <div class="slide">
+                <img src="{{asset('storage/images/20231113-202415-784832-Sap.svg')}}" alt="" class="w-100">
+            </div>
+            <div class="slide">
+                <img src="{{asset('storage/images/20231121-180746-421000-qradar.svg')}}" alt="" class="w-100">
             </div>
         </div>
     </div>
@@ -127,7 +157,7 @@
                 <img src="{{asset('storage/images/20231121-180746-911368-rackspace-horizontal.svg')}}" alt="" class="w-100">
             </div>
             <div class="slide">
-                <img src="{{asset('storage/images/20231121-180622-815530-azure-full.svg')}}" alt="" class="w-100">
+                <img src="{{asset('storage/images/20231121-180622-745881-digital-ocean.svg')}}" alt="" class="w-100">
             </div>
         </div>
     </div>
