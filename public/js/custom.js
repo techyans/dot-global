@@ -85,14 +85,39 @@ $('.index-page .count').each(function () {
     });
 });
 
-$('.index-page .technologies .slides').slick({
+var tech_slide = $('.index-page .technologies .slides');
+tech_slide.slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     // autoplay: true,
     autoplaySpeed: 2000,
-    nextArrow:'<div class="next"><i class="bi bi-chevron-right"></i></div>',
-    prevArrow:'',
+    nextArrow:'<div class="next" data="1"><i class="bi bi-chevron-right"></i></div>',
+    prevArrow:'<div class="prev"><i class="bi bi-chevron-left"></i></div>',
 })
+
+$(tech_slide).on('afterChange', function(event, slick, currentSlide) {
+    //console.log(currentSlide)
+    if (currentSlide === slick.slideCount - 1) {
+        console.log($(this).attr('data'));
+        //$(this).find('.index-page .technologies .slides .prev').css('z-index','100');
+    } else {
+        console.log('start')
+    }
+});
+  
+$(document).ready(function(){
+    $('.index-page .technologies .show-hide').slideUp();
+    $('body').on('click','.index-page .technologies .show-more .btn',function(e){
+        $('.index-page .technologies .show-hide').slideToggle();
+        if($('.technologies .show-more .btn>i').hasClass('bi-arrow-down')){
+            $('.technologies .show-more .btn>i').removeClass('bi-arrow-down');
+            $('.technologies .show-more .btn>i').addClass('bi-arrow-up');
+        }else if($('.technologies .show-more .btn>i').hasClass('bi-arrow-up')){
+            $('.technologies .show-more .btn>i').removeClass('bi-arrow-up');
+            $('.technologies .show-more .btn>i').addClass('bi-arrow-down');
+        }
+    })
+}); 
 
 $('.index-page .bussiness-challange .slides').slick({
     slidesToShow: 1,
@@ -124,7 +149,7 @@ $('.index-page .trusted-client .slides').slick({
     infinite: false,
     responsive: [
         {
-            breakpoint: 767,
+            breakpoint: 991,
             settings: {
                 slidesToShow: 4,
                 slidesToScroll: 1,
@@ -132,6 +157,26 @@ $('.index-page .trusted-client .slides').slick({
         }
     ]
 })
+$('.service-brand .slide').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    dots:false,
+    arrows:false,
+    autoplay:false,
+    pauseOnHover: false,
+    autoplaySpeed:0,
+    speed:2000,
+    easing:'linear',
+})
+$('.service-brand .slide').on('mouseenter', function() {
+    $(this).slick('slickPlay');  // Start autoplay on hover
+});
+  
+$('.service-brand .slide').on('mouseleave', function() {
+    $(this).slick('slickPause'); // Pause autoplay on mouse leave
+});
+
+
 $('body').on('click','.wwd .mobile .accordion-header',function(e){
     e.preventDefault();
     // for change background color======================
@@ -149,5 +194,10 @@ $('body').on('click','.wwd .mobile .accordion-header',function(e){
         $('.wwd .mobile .accordion-header').find('.toggle').html('<i class="bi bi-caret-right-fill"></i>');
         $(this).find('.toggle').html('<i class="bi bi-caret-down-fill"></i>');
     }
+})
+
+$('.subscriber').on('submit', function(e){
+    e.preventDefault();
+    $('.subscriber .result').html('form submitted successfully');
 })
   

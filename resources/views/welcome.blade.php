@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="row justify-content-center service-brand" style="background: #F7F7F7">
-                <div class="col-11">
+                <div class="col-12 col-lg-11">
                     @include('templates/home-page/service-brand')
                 </div>
             </div>

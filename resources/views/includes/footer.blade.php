@@ -1,24 +1,25 @@
                 </main>
             <footer>
                 <div class="row justify-content-center m-0 footer-row">
-                    
-                    <div class="col-10">
-                        <div class="row">
-                            <div class="col-7">
+                    <div class="col-md-8 col-lg-10">
+                        <div class="row mobile-view">
+                            <div class="col-12 col-lg-7">
                                 <div class="content">
                                     <h2>Newsletter - Stay tune and get the latest update</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
                             </div>
-                            <div class="col-5 subscriber">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Enter email address" aria-label="Recipient's username" aria-describedby="button-addon2">
-                                    <button class="btn" type="button"><i class="fa-solid fa-paper-plane"></i></button>
+                            <form class="col-12 col-lg-5 subscriber" method="post">
+                                <div class="input-group">
+                                    <input type="email" name="email" class="form-control" placeholder="Enter email address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                    <button class="btn" type="submit"><i class="fa-solid fa-paper-plane"></i></button>
                                 </div>
-                            </div>
+                                <div class="result"></div>
+                            </form>
                         </div>
                     </div>
-                    <div class="col-12 border-top mt-3 mb-4"></div>
-                    <div class="col-10">
+                    <div class="col-12 border-top mt-3 mb-4 d-none d-lg-block"></div>
+                    <div class="col-10 d-none d-lg-block">
                         <div class="row">
                             <div class="col-12 col-lg-4">
                                 <div class="">
@@ -78,7 +79,7 @@
                     </div>
                     <div class="col-12 border-top mt-3 mb-4"></div>
                     <div class="col-md-10">
-                        <div class="row">
+                        <div class="row mobile-view">
                             <div class="col-12 col-md-6 col-lg-3">
                                 <div class="logo">
                                     <a href="{{url('/')}}"><img src="{{asset('storage/images/20231110-191450-980554-dot-logo.png')}}" alt=""></a>
@@ -94,7 +95,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-3">
+                            <div class="col-12 col-md-6 col-lg-3">
                                 <div class="">
                                     <h2>Useful Links</h2>
                                 </div>
@@ -108,7 +109,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-3">
+                            <div class="col-12 col-md-6 col-lg-3 d-none d-lg-block">
                                 <div class="">
                                     <h2>Upcoming Technologies</h2>
                                 </div>
@@ -130,8 +131,8 @@
                                 <div class="">
                                     <ul>
                                         <li><a href="tel:+919989977788"><i class="fa-solid fa-phone-volume"></i> +919989977788</a></li>
-                                        <li><a href="https://wa.me/+919989977788"><i class="fa-brands fa-whatsapp"></i> +919989977788</a></li>
                                         <li><a href="mailto:contact@fastensoft.com"><i class="fa-regular fa-envelope"></i> dotglobal@email.com</a></li>
+                                        <li><a href="mailto:contact@fastensoft.com"><i class="fa-solid fa-location-dot"></i> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></li>
                                     </ul>
                                 </div>
                             </div>

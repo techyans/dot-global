@@ -1,15 +1,15 @@
 <div class="row d-flex align-items-center  justify-content-center">
-    <div class="col-12 col-md-5 col-lg-5  video-sec position-relative">
-        <h2 class="d-md-none">Why choose us</h2>
+    <div class="col-12 col-lg-5  video-sec position-relative text-center">
+        <h2 class="d-lg-none">Why choose us</h2>
         <img class="top" src="{{asset('storage/images/20231210-164132-217912-group-57.svg')}}" alt="">
         <video class="w-100 custom-video rounded-3" controls>
             <source src="{{asset('storage/images/why-choose-us.mp4')}}" type="video/mp4">
         </video>
         <img class="bottom" src="{{asset('storage/images/20231210-165154-235066-group-58.svg')}}" alt="">
     </div>
-    <div class="col-12 col-md-7 col-lg-7 wcu-content">
+    <div class="col-12 col-lg-7 wcu-content">
         <div class="content">
-            <h2 class="d-none d-md-block">Why choose us</h2>
+            <h2 class="d-none d-lg-block">Why choose us</h2>
             <ul class="ps-3">
                 <li>At Dot Global Technologies (DGT), we are a leading force in providing innovative IT solutions and services.</li>
                 <li>With expertise spanning software development, IT infrastructure, cybersecurity, and more, we empower businesses to thrive in the digital age.</li>
@@ -18,7 +18,7 @@
             </ul>
         </div>
     </div>
-    <div class="col-12 col-md-7 col-lg-7 form-section position-relative mt-sm-5">
+    <div class="col-12 col-md-10 col-lg-7 form-section position-relative mt-sm-5">
         <div class="row border rounded bg-white py-sm-3 position-absolute mt-sm-4">
             <div class="col-12 col-md-6 col-lg-6">
                 <h3>Contact Us</h3>
