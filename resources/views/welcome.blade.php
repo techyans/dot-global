@@ -18,7 +18,7 @@
                     @include('templates/home-page/our-solution')
                 </div>
             </div>
-            <div class="row justify-content-center top-notch d-none" style="background: #F3F5FB">
+            <div class="row justify-content-center top-notch" style="background: #F3F5FB">
                 <div class="col-12 col-lg-10">
                     @include('templates/home-page/top-notch')
                 </div>

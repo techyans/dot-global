@@ -657,7 +657,7 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
     max-width: 80px;
     width: 100%;
     max-height: 50px;
-    height: 50px;
+    height: 45px;
 }
 .index-page .technologies .next{
     position: absolute;
@@ -896,7 +896,7 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
 }
 .index-page .top-notch .content{
     height: 100%;
-    padding: 30px 20px;
+    padding: 20px;
     background: linear-gradient(to bottom, var(--brand-color) 0%, var(--brand-color) 50%, #ffffff 50%, #ffffff 100%);
     background-size: 100% 200%; /* Initial background size */
     transition: background-position 0.5s ease; /* Transition effect */
@@ -915,11 +915,17 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
     height: 35px;
 }
 .index-page .top-notch .service-list{
-    padding: 14px 0 14px 15px;
+    padding: 10px 0 10px 15px;
+    height: 150px;
 }
 .index-page .top-notch .service-list p{
-    font-size: 13px;
+    font-size: 12px;
     margin: 0 0 6px 0;
+    transition: .3s;
+}
+.index-page .top-notch .service-list p:hover{
+    letter-spacing: 0.5px;
+    color: var(--brand-color);
 }
 .index-page .top-notch .content .sp1{
     background: #1e9fe09a;
@@ -944,6 +950,46 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
     font-size: 13px;
     font-weight: 500;
     margin-top: 20px;
+}
+.index-page .top-notch .slick-slide {
+    margin: 0 15px;
+}
+.index-page .top-notch .slick-list {
+    margin: 0 !important;
+}
+@media screen and (max-width: 767px) {
+    .index-page .top-notch {
+        padding: 30px 15px;
+    }
+    .index-page .top-notch h2{
+        font-size: 17px;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    .index-page .top-notch .top p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .index-page .top-notch .slick-slide {
+        margin: 0px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .index-page .top-notch {
+        padding: 30px 15px;
+    }
+    .index-page .top-notch h2{
+        font-size: 24px;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    .index-page .top-notch .top p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .index-page .top-notch .slick-slide {
+        margin: 10px;
+    }
 }
 /* ---------Bussiness challange section---------- */
 .index-page .bussiness-challange{
@@ -1104,6 +1150,9 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
     width: 26px;
     background: var(--brand-color);
 }
+.index-page .testimonial .slides .row{
+    flex-wrap: nowrap;
+}
 @media (max-width: 667px){
     .index-page .testimonial ul li img{
         display: none;
@@ -1130,9 +1179,6 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
     .index-page .testimonial .content p{
         font-size: 12px;
     }
-    .index-page .testimonial .slides .row{
-        flex-wrap: nowrap;
-    }
 }
 /* ---------Why choose us---------- */
 .wcu{
@@ -1140,12 +1186,14 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
 }
 .wcu .video-sec .top{
     position: absolute;
-    margin: -18px 0 0 -18px;
+    max-width: 65px;
+    margin: -2% 0 0 -2%;
 }
 .wcu .video-sec .bottom{
     position: absolute;
-    bottom: -10px;
-    right: 6px;
+    max-width: 65px;
+    bottom:-1%;
+    right:  1%;
 }
 .wcu .content{
     padding-left: 20px;
