@@ -27,6 +27,11 @@
                     <div class="col-12 d-lg-none mobile-nav">
                         @include('includes/mobile-and-tab-nav') 
                     </div>
+                    <div class="mobile-nav-bar">
+                        {{-- @include('includes/left-nav-bar') --}}
+                    </div>
+                    <div class="mobile-nav-drawer"></div>
+
                     <div class="left-nav-bar">
                         @include('includes/left-nav-bar')
                     </div>

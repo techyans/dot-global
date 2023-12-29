@@ -9,19 +9,26 @@
                     <a href="#" id="what-wedo-dropdown" data-bs-toggle="dropdown" aria-expanded="false">What We Do <i class="fa-solid fa-chevron-down"></i></a>
                     <ul class="dropdown-menu shadow first border" aria-labelledby="what-wedo-dropdown">
                         <div class="sub-menu position-relative"> @include('templates/mega-menu/what-we-do')</div>
-                       
                     </ul>
                 </li>
                 <li class="top-nav-items">
                     <a href="#" id="offering-dropdown" data-bs-toggle="dropdown" aria-expanded="false">Offering <i class="fa-solid fa-chevron-down"></i></a>
-                    <ul class="dropdown-menu first" aria-labelledby="offering-dropdown">
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
+                    <ul class="dropdown-menu first border" aria-labelledby="offering-dropdown">
+                        <div class="sub-menu position-relative"> @include('templates/mega-menu/offering')</div>
                     </ul>
                 </li>
-                <li class="top-nav-items"><a href="{{url('/work-process')}}/">Innovation <i class="fa-solid fa-chevron-down"></i></a></li>
-                <li class="top-nav-items"><a href="{{url('/blogs')}}/">Staff Augmentation <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li class="top-nav-items">
+                    <a href="#" id="innovation-dropdown" data-bs-toggle="dropdown" aria-expanded="false">Innovation <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu first border" aria-labelledby="innovation-dropdown" style="margin: 23px 0 0 -70px !important;">
+                        <div class="sub-menu position-relative"> @include('templates/mega-menu/innovation')</div>
+                    </ul>
+                </li>
+                <li class="top-nav-items">
+                    <a href="#" id="staff-dropdown" data-bs-toggle="dropdown" aria-expanded="false">Staff Augmentation <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu first border" aria-labelledby="staff-dropdown">
+                        <div class="sub-menu position-relative"> @include('templates/mega-menu/staff-augmentation')</div>
+                    </ul>
+                </li>
                 <li class="top-nav-items company-dropdown">
                     <a href="#" id="company-dropdown" data-bs-toggle="dropdown" aria-expanded="false">Company <i class="fa-solid fa-chevron-down"></i></a>
                     <ul class="dropdown-menu first border" aria-labelledby="company-dropdown">

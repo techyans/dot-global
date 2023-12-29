@@ -1,5 +1,6 @@
 const action_url = 'http://127.0.0.1:8000/';
 
+// ================Home page top banner slider======================
 $('.index-page .home-top').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -10,12 +11,15 @@ $('.index-page .home-top').slick({
     fade:true,
     autoplaySpeed:3000,
 })
+// ================Home page top notch slider======================
 $('.index-page .top-notch .slides').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     dots:false,
     arrows:false,
-    autoplay:false,
+    autoplay:true,
+    autoplaySpeed:4000,
+    pauseOnHover:true,
     responsive: [
         {
             breakpoint: 767,
@@ -33,6 +37,7 @@ $('.index-page .top-notch .slides').slick({
 })
 
 $(document).ready(function(){
+    // ============Left country nav bar =================
     $('body').on('click','header .open-left-nav',function(e){
         e.preventDefault();
         $('header .left-nav-bar').css('margin-right','0%');
@@ -43,19 +48,31 @@ $(document).ready(function(){
         $('header .left-nav-drawer').hide();
         $('header .left-nav-bar').css('margin-right','-320%');
     })
+
+    // ============Left country nav bar =================
+    $('body').on('click','header .mobile-nav .bi-list',function(e){
+        e.preventDefault();
+        $('header .mobile-nav-bar').css('margin-left','0%');
+        $('header .mobile-nav-drawer').show();
+    })
+    $('body').on('click','header .mobile-nav-drawer',function(e){
+        e.preventDefault();
+        $('header .mobile-nav-drawer').hide();
+        $('header .mobile-nav-bar').css('margin-left','-320%');
+    })
  
-// $(".nav-lists .top-nav-items").mouseenter(function(){
-//     $(this).find(".first").stop(true, true).slideDown(300);
-//   });
-//   // Close mega menu on mouse leave
-//   $(".nav-lists .top-nav-items").mouseleave(function(){
-//     $(this).find(".first").stop(true, true).slideUp(300);
-//   });
-    $(".first li").mouseenter(function(){
-        $('.first li').find(".dropdown-menu").removeClass('show');
-        $(this).find(".first").addClass('show');
-        $(this).find(".dropdown-menu").addClass('show');
-    });
+    // $(".nav-lists .top-nav-items").mouseenter(function(){
+    //     $(this).find(".first").stop(true, true).slideDown(300);
+    // });
+    // // Close mega menu on mouse leave
+    // $(".nav-lists .top-nav-items").mouseleave(function(){
+    //     $(this).find(".first").stop(true, true).slideUp(300);
+    // });
+    // $(".first li").mouseenter(function(){
+    //     $('.first li').find(".dropdown-menu").removeClass('show');
+    //     $(this).find(".first").addClass('show');
+    //     $(this).find(".dropdown-menu").addClass('show');
+    // });
 
     $('.contact-us-page form').validate({
         rules:{
@@ -106,11 +123,12 @@ $(document).ready(function(){
     //     $(this).find('.dropdown-menu').removeClass('show');
     //   });
 
+    // ================Home page animated counter======================
     $('.index-page .count').each(function () {
         $(this).prop('Counter',0).animate({
             Counter: $(this).text()
         }, {
-            duration: 4000,
+            duration: 7000,
             easing: 'swing',
             step: function (now) {
                 $(this).text(Math.ceil(now));
@@ -118,29 +136,35 @@ $(document).ready(function(){
         });
     });
 
-    var tech_slide = $('.index-page .technologies .slides');
-    tech_slide.slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: false,
-        infinite: false,
-        nextArrow:'<div class="next" data="1"><i class="bi bi-chevron-right"></i></div>',
-        prevArrow:'<div class="prev"><i class="bi bi-chevron-left"></i></div>',
-    })
-
-    $(tech_slide).on('afterChange', function(event, slick, currentSlide) {
-        //console.log(currentSlide)
-        if (currentSlide === slick.slideCount - 1) {
-            console.log($(this).attr('data'));
-            //$(this).find('.index-page .technologies .slides .prev').css('z-index','100');
-        } else {
-            console.log('start')
-        }
+    // ================Home page technologies slider======================
+    $('.index-page .technologies .slides').each(function() {
+        var $slider = $(this);
+      
+        $slider.on('init reInit afterChange', function(event, slick, currentSlide, nextSlide) {
+            var slideCount = slick.slideCount;
+            if ((currentSlide + 4)>= slideCount) {
+                $slider.find('.next').css('z-index','99'); // Hide next icon when at the end
+                $slider.find('.prev').css('z-index','100'); // Hide next icon when at the end
+            } 
+            if (currentSlide === 0) {
+                $slider.find('.prev').css('z-index','99'); // Show next icon otherwise
+                $slider.find('.next').css('z-index','100'); // Show next icon otherwise
+            }
+        });
+      
+        $slider.slick({
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            autoplay: false,
+            infinite: false,
+            nextArrow:'<div class="next" data="2"><i class="bi bi-chevron-right"></i></div>',
+            prevArrow:'<div class="prev" data="2"><i class="bi bi-chevron-left"></i></div>',
+        });
     });
   
     window.setTimeout(function() {
         $('.index-page .technologies .show-hide').slideUp();
-    }, 3000);
+    }, 5000);
 
     $('body').on('click','.index-page .technologies .show-more .btn',function(e){
         $('.index-page .technologies .show-hide').slideToggle();
@@ -152,14 +176,16 @@ $(document).ready(function(){
             $('.technologies .show-more .btn>i').addClass('bi-arrow-down');
         }
     })
-
     
+    // ================Home page trusted client slider======================
     $('.index-page .trusted-client .slides').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
         dots:false,
         arrows:false,
-        infinite: false,
+        infinite: true,
+        autoplay:true,
+        autoplaySpeed:2000,
         responsive: [
             {
                 breakpoint: 991,
@@ -170,24 +196,27 @@ $(document).ready(function(){
             }
         ]
     })
+    // ================Home page brand slider======================
     $('.service-brand .slide').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
         dots:false,
         arrows:false,
-        autoplay:false,
+        autoplay:true,
         pauseOnHover: false,
         autoplaySpeed:0,
         speed:2000,
         easing:'linear',
     })
 
+    // ================Home page bussiness slider======================
     $('.index-page .bussiness-challange .slides').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         dots:true,
         arrows:false,
     })
+    // ================Home page testimonial slider===================
     $('.index-page .testimonial .slides').slick({
         slidesToShow: 1,
         slidesToScroll: 1,

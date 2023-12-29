@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="row justify-content-center emerging-tech">
-                <div class="col-10">
+                <div class="col-12 col-lg-10">
                     @include('templates/home-page/emerging-tech')
                 </div>
             </div>
