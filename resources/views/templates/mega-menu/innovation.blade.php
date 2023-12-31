@@ -7,30 +7,33 @@
         </div>
     </div>
     <ul class="dropdown-menu border" style="width:100% !important;">
-        <div class="row">
+        <div class="row px-3">
             <div class="col-6">
-                <li><a class="dropdown-item" href="#">ERP</a></li>
-                <li><a class="dropdown-item" href="#">Operations Management</a></li>
-                <li><a class="dropdown-item" href="#">Financial Management</a></li>
-                <li><a class="dropdown-item" href="#">Supply Chain Management</a></li>
-                <li><a class="dropdown-item" href="#">Asset Management</a></li>
-                <li><a class="dropdown-item" href="#">Fleet Management</a></li>
-                <li><a class="dropdown-item" href="#">Data Analytics</a></li>
-                <li><a class="dropdown-item" href="#">Human Resources</a></li>
-                <li><a class="dropdown-item" href="#">BMC BladeLogic</a></li>
-                <li><a class="dropdown-item" href="#">eLearning</a></li>
+                <p>Trending</p>
+                <li><a class="dropdown-item" href="#">Cloud</a></li>
+                <li><a class="dropdown-item" href="#">Software as a Service</a></li>
+                <li><a class="dropdown-item" href="#">Internet of Things</a></li>
+                <li><a class="dropdown-item" href="#">Big Data</a></li>
+                <li><a class="dropdown-item" href="#">Data science</a></li>
+                <li><a class="dropdown-item" href="#">Machine learning</a></li>
+                <li><a class="dropdown-item" href="#">Artificial Intelligence</a></li>
+                <li><a class="dropdown-item" href="#">Blockchain</a></li>
+                <li><a class="dropdown-item" href="#">Virtual Reality</a></li>
+                <li><a class="dropdown-item" href="#">Augmented Reality</a></li>
+                <li><a class="dropdown-item" href="#">Computer Vision</a></li>
             </div>
             <div class="col-6 ps-0">
-                <li><a class="dropdown-item" href="#">CRM</a></li>
-                <li><a class="dropdown-item" href="#">Operations Management</a></li>
-                <li><a class="dropdown-item" href="#">Financial Management</a></li>
-                <li><a class="dropdown-item" href="#">Supply Chain Management</a></li>
-                <li><a class="dropdown-item" href="#">Asset Management</a></li>
-                <li><a class="dropdown-item" href="#">Fleet Management</a></li>
-                <li><a class="dropdown-item" href="#">Data Analytics</a></li>
-                <li><a class="dropdown-item" href="#">Human Resources</a></li>
-                <li><a class="dropdown-item" href="#">BMC BladeLogic</a></li>
-                <li><a class="dropdown-item" href="#">eLearning</a></li>
+                <p>Platforms</p>
+                <li><a class="dropdown-item" href="#">Microsoft</a></li>
+                <li><a class="dropdown-item" href="#">Azure</a></li>
+                <li><a class="dropdown-item" href="#">Power Apps</a></li>
+                <li><a class="dropdown-item" href="#">Dynamics 365</a></li>
+                <li><a class="dropdown-item" href="#">Power BI</a></li>
+                <li><a class="dropdown-item" href="#">Amazon Web Services</a></li>
+                <li><a class="dropdown-item" href="#">Adobe Commerce</a></li>
+                <li><a class="dropdown-item" href="#">ServiceNow®</a></li>
+                <li><a class="dropdown-item" href="#">Salesforce</a></li>
+                <li><a class="dropdown-item" href="#">Pimcore</a></li>
             </div>
         </div>
     </ul>
@@ -43,31 +46,28 @@
             <p class="m-0 desc">Our service portfolio covers an entire software development life cycle and meets varied business needs.</p>
         </div>
     </div>
-    <ul class="dropdown-menu border" style="width:100% !important;">
-        <div class="row">
+    <ul class="dropdown-menu border" style="width:112% !important;">
+        <div class="row px-3">
             <div class="col-6 ">
-                <li><a class="dropdown-item" href="#">ERP</a></li>
-                <li><a class="dropdown-item" href="#">Operations Management</a></li>
-                <li><a class="dropdown-item" href="#">Financial Management</a></li>
-                <li><a class="dropdown-item" href="#">Supply Chain Management</a></li>
-                <li><a class="dropdown-item" href="#">Asset Management</a></li>
-                <li><a class="dropdown-item" href="#">Fleet Management</a></li>
-                <li><a class="dropdown-item" href="#">Data Analytics</a></li>
-                <li><a class="dropdown-item" href="#">Human Resources</a></li>
-                <li><a class="dropdown-item" href="#">BMC BladeLogic</a></li>
-                <li><a class="dropdown-item" href="#">eLearning</a></li>
+                <li><a class="dropdown-item" href="#">Financial Services</a></li>
+                <li><a class="dropdown-item" href="#">Banking</a></li>
+                <li><a class="dropdown-item" href="#">Insurance</a></li>
+                <li><a class="dropdown-item" href="#">Lending</a></li>
+                <li><a class="dropdown-item" href="#">Investment</a></li>
+                <li><a class="dropdown-item" href="#">FinTech</a></li>
+                <li><a class="dropdown-item" href="#">Payments</a></li>
+                <li><a class="dropdown-item" href="#">Retail</a></li>
             </div>
             <div class="col-6 ps-0">
-                <li><a class="dropdown-item" href="#">CRM</a></li>
-                <li><a class="dropdown-item" href="#">Operations Management</a></li>
-                <li><a class="dropdown-item" href="#">Financial Management</a></li>
-                <li><a class="dropdown-item" href="#">Supply Chain Management</a></li>
-                <li><a class="dropdown-item" href="#">Asset Management</a></li>
-                <li><a class="dropdown-item" href="#">Fleet Management</a></li>
-                <li><a class="dropdown-item" href="#">Data Analytics</a></li>
-                <li><a class="dropdown-item" href="#">Human Resources</a></li>
+                <li><a class="dropdown-item" href="#">Healthcare</a></li>
+                <li><a class="dropdown-item" href="#">Manufacturing</a></li>
+                <li><a class="dropdown-item" href="#">Professional Services</a></li>
+                <li><a class="dropdown-item" href="#">Transportation and Logistics</a></li>
+                <li><a class="dropdown-item" href="#">Telecommunications</a></li>
+                <li><a class="dropdown-item" href="#">Oil and Gas</a></li>
+                <li><a class="dropdown-item" href="#">Construction</a></li>
+                <li><a class="dropdown-item" href="#">Travel and Hospitality</a></li>
                 <li><a class="dropdown-item" href="#">BMC BladeLogic</a></li>
-                <li><a class="dropdown-item" href="#">eLearning</a></li>
             </div>
         </div>
     </ul>

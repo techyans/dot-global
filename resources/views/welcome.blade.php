@@ -43,7 +43,7 @@
                     @include('templates/home-page/testimonials')
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center px-0">
                 <div class="col-12 mx-auto counters" style="background:url({{asset('storage/images/20231111-221620-481692-dgt-top-banner.jpg')}})">
                     <div class="row justify-content-center" style="background: #000000b7;">
                         <div class="col-12 col-lg-11 py-5">

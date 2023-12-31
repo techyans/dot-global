@@ -6,31 +6,31 @@
         <div class="row list">
             <div class="nav flex-column nav-pills col-5 col-lg-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <button class="nav-link active" id="v-pills-sd-tab" data-bs-toggle="pill" data-bs-target="#v-pills-sd" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
-                    <span class="left-icon"><i class="bi bi-database-fill"></i></span> Software Development <i class="bi bi-caret-right-fill"></i>
+                    <span class="left-icon"><i class="fa-brands fa-uncharted"></i></i></span> Software Development <i class="bi bi-caret-right-fill"></i>
                 </button>
                 <button class="nav-link" id="v-pills-qa-tab" data-bs-toggle="pill" data-bs-target="#v-pills-qa" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                    <span class="left-icon"><i class="bi bi-code-square"></i></span>Testing & QA<i class="bi bi-caret-right-fill"></i>
+                    <span class="left-icon"><i class="fa-solid fa-code"></i></span>Testing & QA<i class="bi bi-caret-right-fill"></i>
                 </button>
                 <button class="nav-link" id="v-pills-as-tab" data-bs-toggle="pill" data-bs-target="#v-pills-as" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                    <span class="left-icon"><i class="bi bi-code-square"></i></span>Application Services<i class="bi bi-caret-right-fill"></i>
+                    <span class="left-icon"><i class="fa-solid fa-mobile"></i></span>Application Services<i class="bi bi-caret-right-fill"></i>
                 </button>
                 <button class="nav-link" id="v-pills-uiux-tab" data-bs-toggle="pill" data-bs-target="#v-pills-uiux" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                    <span class="left-icon"><i class="bi bi-code-square"></i></span>UI/UX Design<i class="bi bi-caret-right-fill"></i>
+                    <span class="left-icon"><i class="fa-solid fa-table"></i></span>UI/UX Design<i class="bi bi-caret-right-fill"></i>
                 </button>
                 <button class="nav-link" id="v-pills-sa-tab" data-bs-toggle="pill" data-bs-target="#v-pills-sa" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                    <span class="left-icon"><i class="bi bi-code-square"></i></span>Staff Augmentation<i class="bi bi-caret-right-fill"></i>
+                    <span class="left-icon"><i class="fa-solid fa-user-group"></i></span>Staff Augmentation<i class="bi bi-caret-right-fill"></i>
                 </button>
                 <button class="nav-link" id="v-pills-da-tab" data-bs-toggle="pill" data-bs-target="#v-pills-da" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                    <span class="left-icon"><i class="bi bi-code-square"></i></span>Data Analytics<i class="bi bi-caret-right-fill"></i>
+                    <span class="left-icon"><i class="fa-solid fa-database"></i></span>Data Analytics<i class="bi bi-caret-right-fill"></i>
                 </button>
                 <button class="nav-link" id="v-pills-hds-tab" data-bs-toggle="pill" data-bs-target="#v-pills-hds" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                    <span class="left-icon"><i class="bi bi-code-square"></i></span>Help Desk Services<i class="bi bi-caret-right-fill"></i>
+                    <span class="left-icon"><i class="fa-solid fa-circle-info"></i></span>Help Desk Services<i class="bi bi-caret-right-fill"></i>
                 </button>
                 <button class="nav-link" id="v-pills-is-tab" data-bs-toggle="pill" data-bs-target="#v-pills-is" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                    <span class="left-icon"><i class="bi bi-code-square"></i></span>Infrastructure Services<i class="bi bi-caret-right-fill"></i>
+                    <span class="left-icon"><i class="fa-solid fa-headset"></i></span>Infrastructure Services<i class="bi bi-caret-right-fill"></i>
                 </button>
                 <button class="nav-link" id="v-pills-css-tab" data-bs-toggle="pill" data-bs-target="#v-pills-css" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                    <span class="left-icon"><i class="bi bi-code-square"></i></span>Cybersecurity Services<i class="bi bi-caret-right-fill"></i>
+                    <span class="left-icon"><i class="fa-solid fa-shield-halved"></i></span>Cybersecurity Services<i class="bi bi-caret-right-fill"></i>
                 </button>
             </div>
             <div class="tab-content col-7 col-lg-9 right-content" id="v-pills-tabContent">
@@ -295,7 +295,7 @@
             <div class="accordion-item rounded-0">
                 <h2 class="accordion-header">
                     <div class="row d-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#collapse-sd" aria-expanded="true" aria-controls="collapse-sd">
-                        <div class="col-2 service-icon text-center"><i class="bi bi-database-fill"></i></div>
+                        <div class="col-2 service-icon text-center"><i class="fa-brands fa-uncharted"></i></div>
                         <div class="col-8 text-center px-0"><p>Software Development</p></div>
                         <div class="col-2 toggle text-center"><i class="bi bi-caret-right-fill"></i></div>
                     </div>
@@ -323,7 +323,7 @@
             <div class="accordion-item rounded-0">
                 <h2 class="accordion-header">
                     <div class="collapsed row d-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#collapse-tqa" aria-expanded="false" aria-controls="collapse-tqa">
-                        <div class="col-2 service-icon text-center"><i class="bi bi-database-fill"></i></div>
+                        <div class="col-2 service-icon text-center"><i class="fa-solid fa-code"></i></div>
                         <div class="col-8 text-center px-0"><p>Testing & QA</p></div>
                         <div class="col-2 toggle text-center"><i class="bi bi-caret-right-fill"></i></div>
                     </div>
@@ -352,7 +352,7 @@
             <div class="accordion-item rounded-0">
                 <h2 class="accordion-header">
                     <div class="row collapsed d-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#collapse-as" aria-expanded="false" aria-controls="collapse-as">
-                        <div class="col-2 service-icon text-center"><i class="bi bi-database-fill"></i></div>
+                        <div class="col-2 service-icon text-center"><i class="fa-solid fa-mobile"></i></div>
                         <div class="col-8 text-center px-0"><p>Application Services</p></div>
                         <div class="col-2 toggle text-center"><i class="bi bi-caret-right-fill"></i></div>
                     </div>
@@ -376,7 +376,7 @@
             <div class="accordion-item rounded-0">
                 <h2 class="accordion-header">
                     <div class="row collapsed d-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#collapse-uiux" aria-expanded="false" aria-controls="collapse-uiux">
-                        <div class="col-2 service-icon text-center"><i class="bi bi-database-fill"></i></div>
+                        <div class="col-2 service-icon text-center"><i class="fa-solid fa-table"></i></div>
                         <div class="col-8 text-center px-0"><p>UI/UX Design</p></div>
                         <div class="col-2 toggle text-center"><i class="bi bi-caret-right-fill"></i></div>
                     </div>
@@ -403,7 +403,7 @@
             <div class="accordion-item rounded-0">
                 <h2 class="accordion-header">
                     <div class="row collapsed d-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#collapse-sa" aria-expanded="false" aria-controls="collapse-sa">
-                        <div class="col-2 service-icon text-center"><i class="bi bi-database-fill"></i></div>
+                        <div class="col-2 service-icon text-center"><i class="fa-solid fa-user-group"></i></div>
                         <div class="col-8 text-center px-0"><p>Staff Augmentation</p></div>
                         <div class="col-2 toggle text-center"><i class="bi bi-caret-right-fill"></i></div>
                     </div>
@@ -428,7 +428,7 @@
             <div class="accordion-item rounded-0">
                 <h2 class="accordion-header">
                     <div class="row collapsed d-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#collapse-da" aria-expanded="false" aria-controls="collapse-da">
-                        <div class="col-2 service-icon text-center"><i class="bi bi-database-fill"></i></div>
+                        <div class="col-2 service-icon text-center"><i class="fa-solid fa-database"></i></div>
                         <div class="col-8 text-center px-0"><p>Data Analytics</p></div>
                         <div class="col-2 toggle text-center"><i class="bi bi-caret-right-fill"></i></div>
                     </div>
@@ -456,7 +456,7 @@
             <div class="accordion-item rounded-0">
                 <h2 class="accordion-header">
                     <div class="row collapsed d-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#collapse-hds" aria-expanded="false" aria-controls="collapse-hds">
-                        <div class="col-2 service-icon text-center"><i class="bi bi-database-fill"></i></div>
+                        <div class="col-2 service-icon text-center"><i class="fa-solid fa-circle-info"></i></div>
                         <div class="col-8 text-center px-0"><p>Help Desk Services</p></div>
                         <div class="col-2 toggle text-center"><i class="bi bi-caret-right-fill"></i></div>
                     </div>
@@ -481,7 +481,7 @@
             <div class="accordion-item rounded-0">
                 <h2 class="accordion-header">
                     <div class="row collapsed d-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#collapse-is" aria-expanded="false" aria-controls="collapse-is">
-                        <div class="col-2 service-icon text-center"><i class="bi bi-database-fill"></i></div>
+                        <div class="col-2 service-icon text-center"><i class="fa-solid fa-headset"></i></div>
                         <div class="col-8 text-center px-0"><p>Infrastructure Services</p></div>
                         <div class="col-2 toggle text-center"><i class="bi bi-caret-right-fill"></i></div>
                     </div>
@@ -508,7 +508,7 @@
             <div class="accordion-item rounded-0">
                 <h2 class="accordion-header">
                     <div class="row collapsed d-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#collapse-css" aria-expanded="false" aria-controls="collapse-css">
-                        <div class="col-2 service-icon text-center"><i class="bi bi-database-fill"></i></div>
+                        <div class="col-2 service-icon text-center"><i class="fa-solid fa-shield-halved"></i></div>
                         <div class="col-8 text-center px-0"><p>Cybersecurity Services</p></div>
                         <div class="col-2 toggle text-center"><i class="bi bi-caret-right-fill"></i></div>
                     </div>

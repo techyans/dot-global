@@ -7,32 +7,32 @@
         <ul class="nav nav-pills mb-4 row" id="pills-tab" role="tablist">
             <li class="nav-item col text-center" role="presentation">
                 <button class="nav-link active" id="pills-bd-tab" data-bs-toggle="pill" data-bs-target="#pills-bd" type="button" role="tab" aria-controls="pills-bd" aria-selected="true">
-                    <p><span><i class="fa-solid fa-cube"></i> Big Data</span></p>
+                    <p><span><i class="fa-solid fa-box"></i> Big Data</span></p>
                 </button>
             </li>
             <li class="nav-item col" role="presentation">
                 <button class="nav-link" id="pills-ai-tab" data-bs-toggle="pill" data-bs-target="#pills-ai" type="button" role="tab" aria-controls="pills-ai" aria-selected="false">
-                    <p><span><i class="fa-solid fa-display"></i> Artificial Intelligence</span></p>
+                    <p><span><i class="fa-solid fa-brain"></i> Artificial Intelligence</span></p>
                 </button>
             </li>
             <li class="nav-item col" role="presentation">
                 <button class="nav-link" id="pills-cv-tab" data-bs-toggle="pill" data-bs-target="#pills-cv" type="button" role="tab" aria-controls="pills-cv" aria-selected="false">
-                    <p><span><i class="fa-solid fa-display"></i> Computer Vision</span></p>
+                    <p><span><i class="fa-solid fa-computer"></i> Computer Vision</span></p>
                 </button>
             </li>
             <li class="nav-item col" role="presentation">
                 <button class="nav-link" id="pills-iot-tab" data-bs-toggle="pill" data-bs-target="#pills-iot" type="button" role="tab" aria-controls="pills-iot" aria-selected="false">
-                    <p><span><i class="fa-solid fa-display"></i> Internet Of Things</span></p>
+                    <p><span><i class="fa-solid fa-wifi"></i> Internet Of Things</span></p>
                 </button>
             </li>
             <li class="nav-item col" role="presentation">
                 <button class="nav-link" id="pills-bc-tab" data-bs-toggle="pill" data-bs-target="#pills-bc" type="button" role="tab" aria-controls="pills-bc" aria-selected="false">
-                    <p><span><i class="fa-solid fa-signal"></i> Blockchain</span></p>
+                    <p><span><i class="fa-solid fa-link"></i> Blockchain</span></p>
                 </button>
             </li>
             <li class="nav-item col" role="presentation">
                 <button class="nav-link" id="pills-mr-tab" data-bs-toggle="pill" data-bs-target="#pills-mr" type="button" role="tab" aria-controls="pills-mr" aria-selected="false">
-                    <p><span><i class="fa-solid fa-signal"></i> Mixed Reality</span></p>
+                    <p><span><i class="fa-solid fa-boxes-packing"></i> Mixed Reality</span></p>
                 </button>
             </li>
         </ul>
@@ -220,12 +220,12 @@
         </div>
     </div>
 
-    <div class="col-12 mt-4">
+    <div class="col-12 mt-4 d-md-none">
         <div class="accordion accordion-flush" id="emerging-tech">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingbd">
                     <button class="accordion-button shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsebd" aria-expanded="false" aria-controls="flush-collapsebd">
-                        <p><span><i class="fa-solid fa-cube"></i> Big Data</span></p>
+                        <p><span><i class="fa-solid fa-box"></i> Big Data</span></p>
                     </button>
                 </h2>
                 <div id="flush-collapsebd" class="accordion-collapse collapse show" aria-labelledby="flush-headingbd" data-bs-parent="#emerging-tech">
@@ -266,7 +266,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingai">
                     <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseai" aria-expanded="false" aria-controls="flush-collapseai">
-                        <p><span><i class="fa-solid fa-display"></i> Artificial Intelligence</span></p>
+                        <p><span><i class="fa-solid fa-brain"></i> Artificial Intelligence</span></p>
                     </button>
                 </h2>
                 <div id="flush-collapseai" class="accordion-collapse collapse" aria-labelledby="flush-headingai" data-bs-parent="#emerging-tech">
@@ -306,7 +306,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingcv">
                     <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecv" aria-expanded="false" aria-controls="flush-collapsecv">
-                        <p><span><i class="fa-solid fa-display"></i> Computer Vision</span></p>
+                        <p><span><i class="fa-solid fa-computer"></i> Computer Vision</span></p>
                     </button>
                 </h2>
                 <div id="flush-collapsecv" class="accordion-collapse collapse" aria-labelledby="flush-headingcv" data-bs-parent="#emerging-tech">
@@ -349,7 +349,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingiot">
                     <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseiot" aria-expanded="false" aria-controls="flush-collapseiot">
-                        <p><span><i class="fa-solid fa-display"></i> Internet Of Things</span></p>
+                        <p><span><i class="fa-solid fa-wifi"></i> Internet Of Things</span></p>
                     </button>
                 </h2>
                 <div id="flush-collapseiot" class="accordion-collapse collapse" aria-labelledby="flush-headingiot" data-bs-parent="#emerging-tech">
@@ -385,7 +385,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingbc">
                     <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsebc" aria-expanded="false" aria-controls="flush-collapsebc">
-                        <p><span><i class="fa-solid fa-signal"></i> Blockchain</span></p>
+                        <p><span><i class="fa-solid fa-link"></i> Blockchain</span></p>
                     </button>
                 </h2>
                 <div id="flush-collapsebc" class="accordion-collapse collapse" aria-labelledby="flush-headingbc" data-bs-parent="#emerging-tech">
@@ -416,7 +416,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingmr">
                     <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsemr" aria-expanded="false" aria-controls="flush-collapsemr">
-                        <p><span><i class="fa-solid fa-signal"></i> Mixed Reality</span></p>
+                        <p><span><i class="fa-solid fa-boxes-packing"></i> Mixed Reality</span></p>
                     </button>
                 </h2>
                 <div id="flush-collapsemr" class="accordion-collapse collapse" aria-labelledby="flush-headingmr" data-bs-parent="#emerging-tech">

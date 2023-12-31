@@ -22,7 +22,7 @@
     </div>
     <div class="col-3 text-center">
         <div class="content">
-            <div class="icons"><i class="fa-solid fa-earth-asia"></i></div>
+            <div class="icons"><i class="fa-solid fa-diagram-project"></i></div>
             <div class="value"><span class="count">200</span>+</div>
             <p>Projects</p>
         </div>

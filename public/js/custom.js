@@ -1,5 +1,26 @@
 const action_url = 'http://127.0.0.1:8000/';
-
+$('body').on('click','.mobile-nav-bar .first-li>a', function(){
+    if($(this).hasClass('active')){
+        $(this).removeClass('active');
+        $(this).siblings('.first-ul').slideUp(); 
+    }else{
+        $('.mobile-nav-bar .first-ul').slideUp(); 
+        $('.mobile-nav-bar .first-li>a').removeClass('active');
+        $(this).addClass('active');
+        $(this).siblings('.first-ul').slideDown(); 
+    }
+})
+$('body').on('click','.mobile-nav-bar .main-list', function(){
+    if($(this).hasClass('active')){
+        $(this).removeClass('active');
+        $(this).siblings('.second-list').slideUp(); 
+    }else{
+        $('.mobile-nav-bar .second-list').slideUp(); 
+        $('.mobile-nav-bar .main-list').removeClass('active');
+        $(this).addClass('active');
+        $(this).siblings('.mobile-nav-bar .second-list').slideDown(); 
+    }
+})
 // ================Home page top banner slider======================
 $('.index-page .home-top').slick({
     slidesToShow: 1,
@@ -18,7 +39,7 @@ $('.index-page .top-notch .slides').slick({
     dots:false,
     arrows:false,
     autoplay:true,
-    autoplaySpeed:4000,
+    autoplaySpeed:3000,
     pauseOnHover:true,
     responsive: [
         {
@@ -207,7 +228,23 @@ $(document).ready(function(){
         autoplaySpeed:0,
         speed:2000,
         easing:'linear',
+        responsive: [
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
     })
+    // $('.service-brand .slide').on('mouseenter', function() {
+    //     $(this).slick('slickPlay');  // Start autoplay on hover
+    // });
+      
+    // $('.service-brand .slide').on('mouseleave', function() {
+    //     $(this).slick('slickPause'); // Pause autoplay on mouse leave
+    // });
 
     // ================Home page bussiness slider======================
     $('.index-page .bussiness-challange .slides').slick({
@@ -223,15 +260,6 @@ $(document).ready(function(){
         dots:true,
         arrows:false,
     })
-
-    $('.service-brand .slide').on('mouseenter', function() {
-        $(this).slick('slickPlay');  // Start autoplay on hover
-    });
-      
-    $('.service-brand .slide').on('mouseleave', function() {
-        $(this).slick('slickPause'); // Pause autoplay on mouse leave
-    });
-    
     
     $('body').on('click','.wwd .mobile .accordion-header',function(e){
         e.preventDefault();

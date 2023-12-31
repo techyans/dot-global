@@ -28,7 +28,7 @@
                         @include('includes/mobile-and-tab-nav') 
                     </div>
                     <div class="mobile-nav-bar">
-                        {{-- @include('includes/left-nav-bar') --}}
+                        @include('templates/mob-mega-menu/mobile-mega-menu')
                     </div>
                     <div class="mobile-nav-drawer"></div>
 

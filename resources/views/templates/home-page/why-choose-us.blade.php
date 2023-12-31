@@ -19,27 +19,27 @@
         </div>
     </div>
     <div class="col-12 col-md-10 col-lg-7 form-section position-relative mt-sm-5">
-        <div class="row border rounded bg-white py-sm-3 position-absolute mt-sm-4">
+        <div class="row border rounded bg-white py-sm-3 position-absolute mt-sm-4 w-100">
             <div class="col-12 col-md-6 col-lg-6">
                 <h3>Contact Us</h3>
-                <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <ul class="p-0">
-                    <li><i class="bi bi-telephone-fill"></i> +91 9876 543210</li>
-                    <li><i class="bi bi-send-fill"></i> username@email.com</li>
-                    <li><i class="bi bi-geo-alt-fill"></i> Here is the address of the company</li>
+                {{-- <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> --}}
+                <ul class="px-0 pt-3">
+                    <li><i class="bi bi-telephone-fill"></i> +91-9606028218</li>
+                    <li><i class="bi bi-send-fill"></i> info@dotglobaltech.com</li>
+                    <li><i class="bi bi-geo-alt-fill"></i> HBR Layout, Bengaluru, Karnataka 560043</li>
                 </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-6">
                 <form action="" method="POST" >
                     <p class="fw-bold">Send your query</p>
                     <div class="form-group pb-2">
-                        <input type="text" name="name" class="form-control shadow-none" placeholder="Name" required>
+                        <input type="text" name="name" class="form-control shadow-none" placeholder="Your Name" required>
                     </div>
                     <div class="form-group pb-2">
-                        <input type="text" name="name" class="form-control shadow-none" placeholder="Email" required>
+                        <input type="text" name="phone" class="form-control shadow-none" placeholder="Phone Number" required>
                     </div>
                     <div class="form-group pb-2">
-                        <textarea name="" rows="3" class="form-control shadow-none" placeholder="Message"></textarea>
+                        <textarea name="message" rows="3" class="form-control shadow-none" placeholder="Message"></textarea>
                     </div>
                     <div class="form-group">
                         <button class="btn" type="submit">SUBMIT <i class="bi bi-send-fill ms-1"></i></button>

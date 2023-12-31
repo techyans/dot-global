@@ -6,7 +6,7 @@
             <p class="m-0 desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
         </div>
     </div>
-    <ul class="dropdown-menu border">
+    <ul class="dropdown-menu border px-3" style="width:50% !important;">
         <p>Developers for Hire</p>
         <li><a class="dropdown-item" href="#">Java</a></li>
         <li><a class="dropdown-item" href="#">.Net</a></li>
