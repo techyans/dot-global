@@ -47,7 +47,7 @@
     </div>
     <div class="col-3">
         <div class="left-nav text-end">
-            <p class="">
+            <p class="desc-nav-call">
                 <span><a href="tel:+919989977788">
                    <span><img src="{{asset('storage/images/20231112-100532-665798-india-flag.png')}}" alt=""></span> <i class="bi bi-telephone"></i> +91-9989977788
                 </a></span>

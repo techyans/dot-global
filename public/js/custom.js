@@ -280,9 +280,27 @@ $(document).ready(function(){
         }
     })
     
-    $('.subscriber').on('submit', function(e){
+    $('footer .subscriber').on('submit', function(e){
         e.preventDefault();
-        $('.subscriber .result').html('form submitted successfully');
+        var sub_email = $('footer .subscriber input[name="email"]').val();
+        var token = $('footer .subscriber input[name="_token"]').val();
+        if(sub_email!=''){
+            $.ajax({
+                method: 'POST',
+                url: action_url+'news-letter-subscribe',
+                data: {sub_email:sub_email},
+                headers: {
+                    'X-CSRF-TOKEN': token
+                },
+                success: function (response){
+                    $('footer .subscriber')[0].reset();
+                    $('.subscriber .result').html(response);
+                }
+            });
+        }else{
+            $('.subscriber .result').html('<span style="color:red;">Enter valid email address</span>');
+        }
+        
     })
 }); 
   

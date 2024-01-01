@@ -228,7 +228,42 @@
                     </li>
                 </ul>
             </li>
-            <li class="first-li"><a href="javascript:void(0);">Staff Augmentation <i class="fa-solid fa-angle-down"></i>
+            <li class="first-li"><a href="javascript:void(0);">Staff Augmentation <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="first-ul">
+                    <li class="mt-3">
+                        <div class="main-list">
+                            <p class="m-0 fw-bold">Hire Developers</p>
+                            <p class="m-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+                        </div>
+                        <ul class="second-list">
+                            <li><a class="dropdown-item" href="#">Java</a></li>
+                            <li><a class="dropdown-item" href="#">.Net</a></li>
+                            <li><a class="dropdown-item" href="#">Python</a></li>
+                            <li><a class="dropdown-item" href="#">PHP</a></li>
+                            <li><a class="dropdown-item" href="#">Golang</a></li>
+                            <li><a class="dropdown-item" href="#">C++</a></li>
+                            <li><a class="dropdown-item" href="#">Node.Js</a></li>
+                            <li><a class="dropdown-item" href="#">React Native</a></li>
+                            <li><a class="dropdown-item" href="#">Mobile</a></li>
+                        </ul>
+                    </li>
+                    <li class="mt-3">
+                        <a href="">
+                            <div class="main-list">
+                                <p class="m-0 fw-bold">IT Staffing</p>
+                                <p class="m-0">Our service portfolio covers an entire software development life cycle and meets varied business needs.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="mt-3">
+                        <a href="">
+                            <div class="main-list">
+                                <p class="m-0 fw-bold">Non-IT Staffing</p>
+                                <p class="m-0">Our service portfolio covers an entire software development life cycle and meets varied business needs.</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
             </li>
             <li class="first-li"><a href="javascript:void(0);">Company <i class="fa-solid fa-angle-down"></i></a>
                 <ul class="first-ul company-ul pt-3 ps-2">

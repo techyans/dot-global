@@ -36,6 +36,7 @@ Route::get('/check',[Header_Controller::class,'Country_Flags']);
 
 // Form Submission Controller=======================================
 Route::post('/contact-form-submit',[PageController::class,'Contact_Form_Submit']);
+Route::post('/news-letter-subscribe',[PageController::class,'News_Letter_Submit']);
 
 // Admin routes=====================================================
 Route::namespace('Admin')->group(function () {

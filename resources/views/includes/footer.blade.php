@@ -10,6 +10,7 @@
                                 </div>
                             </div>
                             <form class="col-12 col-lg-5 subscriber" method="post">
+                                @csrf
                                 <div class="input-group">
                                     <input type="email" name="email" class="form-control" placeholder="Enter email address" aria-label="Recipient's username" aria-describedby="button-addon2">
                                     <button class="btn" type="submit"><i class="fa-solid fa-paper-plane"></i></button>

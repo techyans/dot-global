@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request; 
+use Illuminate\Support\Facades\DB;
 use App\Models\Contact_Form_Model;
 
 class PageController extends Controller
@@ -37,6 +38,16 @@ class PageController extends Controller
             return '<p class="text-success m-0 pt-3" style="font-weight:500;">Details sent successfully, We will get back to you soon!</p>';
         }else{
             return '<p class="text-dangert m-0 pt-3" style="font-weight:500;">Something went wrong, Try again!</p>';
+        }
+    }
+    public function News_Letter_Submit(request $req){
+        $email = $req->sub_email;
+        $ip_add = $req->ip();
+        $sql = DB::insert("INSERT INTO newsletter_email (email,ip_add) VALUES ('".$email."','".$ip_add."')");
+        if($sql){
+            return '<span style="color:green;">News letter successfuly subscribed.</span>';
+        }else{
+            return '<span style="color:red;">Something wrong, Try again!.</span>';
         }
     }
 }

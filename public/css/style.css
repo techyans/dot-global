@@ -45,6 +45,11 @@ header .left-nav img{
     max-width: 30px;
     cursor: pointer;
 }
+header .left-nav .desc-nav-call a{
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
+}
 /* ----mobile-menu---- */
 header .left-nav-bar{
     height: 100vh;
@@ -331,6 +336,9 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
     color: var(--dark-bg-color);
     border: 0;
     width: 70px;
+}
+footer .subscriber .result span{
+    font-size: 12px;
 }
 @media screen and (max-width: 767px) {
     footer .footer-row{
@@ -755,7 +763,7 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
     z-index: 100;
     background: var(--brand-color);
     color: var(--dark-bg-color);
-    padding: 20px 2px 0 2px;
+    padding: 17px 2px 0 2px;
 }
 .index-page .technologies .prev{
     position: absolute;
@@ -764,7 +772,7 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
     z-index: 99;
     background: var(--brand-color);
     color: var(--dark-bg-color);
-    padding: 20px 2px 0 2px;
+    padding: 17px 2px 0 2px;
 }
 .index-page .technologies .heading p{
     margin: 0 0 8px 0;
@@ -898,7 +906,7 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
 }
 /* ---------service brand section---------- */
 .index-page .service-brand{
-    padding: 50px 0;
+    padding: 60px 0;
 }
 .index-page .service-brand .content{
     display: flex;
@@ -1218,6 +1226,27 @@ footer .subscriber .btn,footer .subscriber .btn:hover{
     }
     .index-page .bussiness-challange .tools p{
         margin: 10px 0 5px 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .index-page .bussiness-challange .heading h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .index-page .bussiness-challange .heading p{
+        text-align: center;
+    }
+    .index-page .bussiness-challange .slides{
+        padding: 10px 60px !important;
+    }
+    .index-page .bussiness-challange .img-heading .position-relative{
+        padding: 10px 0 !important;
+    }
+    .index-page .bussiness-challange .img-heading .position-absolute{
+        top: 15px;
+    }
+    .index-page .bussiness-challange .details{
+        font-size: 12px;
     }
 }
 /* ---------testimonial section---------- */

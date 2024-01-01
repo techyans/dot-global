@@ -8,7 +8,7 @@
     <div class="col-12 col-lg-11 slides mx-auto">
         <div class="text-center">
             <div class="content d-flex align-items-center mx-auto">
-                <img src="{{asset('storage/images/20231228-083215-183778-Al_Rajhi_Bank_Logo-min.png')}}" alt="" class="w-100">
+                <img src="{{asset('storage/images/20231231-193257-872790-Al_Rajhi_Bank_Logo-min.png')}}" alt="" class="w-100">
             </div>
         </div>
         <div class="text-center">

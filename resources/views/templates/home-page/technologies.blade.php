@@ -161,90 +161,91 @@
             </div>
         </div>
     </div>
-    <div class="col-12 col-md-6 col-lg-6 section">
-        <h3>Relational databases / data storages</h3>
-        <div class="slides">
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180723-321196-ms-sql.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180746-995707-oracle.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180746-273009-postgresql-vertical-logo.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180622-863381-azure-synapse-analytics-logo.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180622-408070-azure-sql-database-logo.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180533-915124-amazon-rds-logo.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180533-185104-amazon-s3.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180703-507358-google-cloud-sql-1.svg')}}" alt="" class="w-100">
-            </div>
-        </div>
-    </div>
-    <div class="col-12 col-md-6 col-lg-6 section">
-        <h3>Big data</h3>
-        <div class="slides">
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180703-581104-hadoop-logo.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180802-168696-spark.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180622-687080-cassandra.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180533-842981-apache-kafka.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180703-876512-hive.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180533-543651-apache-zookeper-logo.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180533-719157-apache-hbase-logo.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180622-794026-azure-cosmos-db-logo.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180622-777733-azure-blob-storage.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180622-366097-azure-data-lake-logo.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180533-855268-amazon-dynamodb-logo.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231121-180533-243097-amazon-redshift-logo.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231223-213356-537005-amazon-documentdb.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231223-213608-381736-aws-elasticache.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231223-213727-739698-mongodb.svg')}}" alt="" class="w-100">
-            </div>
-            <div class="slide">
-                <img src="{{asset('storage/images/20231223-213608-759145-google-cloud-datastore.svg')}}" alt="" class="w-100">
-            </div>
-        </div>
-    </div>
+    
     <div class="col-12 show-hide">
         <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 section">
+                <h3>Relational databases / data storages</h3>
+                <div class="slides">
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180723-321196-ms-sql.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180746-995707-oracle.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180746-273009-postgresql-vertical-logo.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180622-863381-azure-synapse-analytics-logo.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180622-408070-azure-sql-database-logo.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180533-915124-amazon-rds-logo.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180533-185104-amazon-s3.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180703-507358-google-cloud-sql-1.svg')}}" alt="" class="w-100">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 section">
+                <h3>Big data</h3>
+                <div class="slides">
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180703-581104-hadoop-logo.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180802-168696-spark.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180622-687080-cassandra.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180533-842981-apache-kafka.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180703-876512-hive.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180533-543651-apache-zookeper-logo.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180533-719157-apache-hbase-logo.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180622-794026-azure-cosmos-db-logo.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180622-777733-azure-blob-storage.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180622-366097-azure-data-lake-logo.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180533-855268-amazon-dynamodb-logo.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231121-180533-243097-amazon-redshift-logo.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231223-213356-537005-amazon-documentdb.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231223-213608-381736-aws-elasticache.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231223-213727-739698-mongodb.svg')}}" alt="" class="w-100">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('storage/images/20231223-213608-759145-google-cloud-datastore.svg')}}" alt="" class="w-100">
+                    </div>
+                </div>
+            </div>
             <div class="col-12 tech-type">
                 <h3>Machine learning</h3>
             </div>
