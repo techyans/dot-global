@@ -21,7 +21,7 @@ header nav{
      padding: 30px 0 0 0;
 }
 header .header-logo img{
-    width: 90px;
+    width: 110px;
 }
 header nav ul{
     list-style: none;
@@ -103,9 +103,9 @@ header .left-nav-bar ul li,header .left-nav-bar ul li a,header .left-nav-bar ul 
     font-size: 12px;
 }
 /*-----------Destop header design--------------*/
-.nav-lists li:hover > ul.dropdown-menu {
+/* .nav-lists li:hover > ul.dropdown-menu {
     display: block;
-}
+} */
 
 header .company-dropdown ul {
     padding: 10px 18px;
@@ -116,6 +116,7 @@ header .first{
     border: 0;
     margin: 23px 0 0 0 !important;
     background: #FEFFFF;
+    
 }
 header .first .row.top{
     margin: 0 20px 5px 20px;
@@ -123,6 +124,7 @@ header .first .row.top{
 }
 header .first .row.top:hover {
     background: #2222223f;
+    cursor: pointer;
 }
 header .first li p {
     font-size: 12px;
@@ -130,7 +132,11 @@ header .first li p {
 header .first li ul{
     margin: 0 !important;
     background: #ffffff;
-    left: 16px !important;
+    left: 100%;
+    position: absolute;
+    border-radius: 5px;
+    display: none;
+    min-width: 200px;
 }
 header .first li ul li{
     margin: 3px 3px 3px 0;
@@ -147,8 +153,8 @@ header .first li ul p{
 }
 .sub-menu li .dropdown-menu{
     position: absolute;
-    left:100% !important;
-    top:-11px !important;
+    left: 96% !important;
+    top: -63px !important;
 }
 header .second .desc{
     font-size: 11px;
@@ -858,7 +864,7 @@ footer .subscriber .result span{
 }
 /* ---------counter section---------- */
 .index-page .counters .row{
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .index-page .counters i{
     color: var(--dark-bg-color);
@@ -1133,6 +1139,12 @@ footer .subscriber .result span{
     font-size: 30px;
     font-weight: 600;
 }
+.index-page .bussiness-challange .client-img,.index-page .bussiness-challange .comp-img{
+    max-width: 50px;
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+}
 .index-page .bussiness-challange ul li{
     display: inline-block;
     list-style: none;
@@ -1337,7 +1349,7 @@ footer .subscriber .result span{
 }
 /* ---------Why choose us---------- */
 .wcu{
-    padding: 60px 0 180px 0;
+    padding: 60px 0 190px 0;
 }
 .wcu .video-sec .top{
     position: absolute;
@@ -1416,6 +1428,10 @@ footer .subscriber .result span{
     background: var(--brand-color);
     border: 0;
     color: var(--dark-bg-color);
+}
+.wcu .form-section label.error{
+    font-size: 12px;
+    color: red;
 }
 .wcu .custom-video::-webkit-media-controls-start-playback-button,
 .wcu .custom-video::-webkit-media-controls-timeline,

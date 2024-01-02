@@ -20,6 +20,10 @@
                             <li><a class="dropdown-item" href="#">BMC TrueSight</a></li>
                             <li><a class="dropdown-item" href="#">BMC Control-M</a></li>
                             <li><a class="dropdown-item" href="#">BMC Smart Reporting</a></li>
+                            <li><a class="dropdown-item" href="#">BMC Client Management</a></li>
+                            <li><a class="dropdown-item" href="#">BMC Helix Digital Work Place</a></li>
+                            <li><a class="dropdown-item" href="#">BMC BladeLogic</a></li>
+                            <li><a class="dropdown-item" href="#">BMC Training</a></li>
                         </ul>
                     </li>
                     <li class="">
@@ -45,6 +49,7 @@
                             <li><a class="dropdown-item" href="#">Salesforce Commerce Cloud</a></li>
                             <li><a class="dropdown-item" href="#">Salesforce Marketing Cloud</a></li>
                             <li><a class="dropdown-item" href="#">Salesforce Community Cloud</a></li>
+                            <li><a class="dropdown-item" href="#">Salesforce Integration Cloud</a></li>
                         </ul>
                     </li>
                     <li>
@@ -55,6 +60,7 @@
                         <ul class="ps-3 second-list">
                             <li><a class="dropdown-item" href="#">IT Service Management</a></li>
                             <li><a class="dropdown-item" href="#">IT Workflows</a></li>
+                            <li><a class="dropdown-item" href="#">Knowledge Management</a></li>
                             <li><a class="dropdown-item" href="#">Audit Management</a></li>
                             <li><a class="dropdown-item" href="#">Configuration Compliance</a></li>
                         </ul>
@@ -68,6 +74,9 @@
                             <li><a class="dropdown-item" href="#">AWS Cloud Migration</a></li>
                             <li><a class="dropdown-item" href="#">AWS Managed Cloud Services</a></li>
                             <li><a class="dropdown-item" href="#">AWS Consulting</a></li>
+                            <li><a class="dropdown-item" href="#">AWS Cloud Security</a></li>
+                            <li><a class="dropdown-item" href="#">Serverless Computing</a></li>
+                            <li><a class="dropdown-item" href="#">AWS Market Enablement</a></li>
                         </ul>
                     </li>
                     <li>
@@ -81,6 +90,7 @@
                             <li><a class="dropdown-item" href="#">SAP ERP</a></li>
                             <li><a class="dropdown-item" href="#">SAP PLM</a></li>
                             <li><a class="dropdown-item" href="#">SAP HR</a></li>
+                            <li><a class="dropdown-item" href="#">SAP Business Objects</a></li>
                         </ul>
                     </li>
                     <li>
@@ -112,6 +122,7 @@
                             <li><a class="dropdown-item" href="#">Qlik Sense</a></li>
                             <li><a class="dropdown-item" href="#">Tableau</a></li>
                             <li><a class="dropdown-item" href="#">SAP Analytics</a></li>
+                            <li><a class="dropdown-item" href="#">Solutions</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -272,7 +283,6 @@
                     <li><a class="dropdown-item" href="#">Contact Us</a></li>
                     <li><a class="dropdown-item" href="#">Company Broucher</a></li>
                     <li><a class="dropdown-item" href="#">Job Opening</a></li>
-                    <li><a class="dropdown-item" href="#">C++</a></li>
                     <li><a class="dropdown-item" href="#">Free Trail</a></li>
                     <li><a class="dropdown-item" href="#">Portfolio</a></li>
                 </ul>

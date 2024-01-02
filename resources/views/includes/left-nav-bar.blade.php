@@ -9,8 +9,8 @@
             </div>
             <div class="content">
                 <ul class="mb-2 mt-3">
-                    <li><a href=""><i class="fa-solid fa-phone"></i> +91 9876543210</a></li>
-                    <li><a href=""><i class="fa-solid fa-envelope"></i> Info@dotglobaltechnologies.com</a></li>
+                    <li><a href="tel:+919606028218"><i class="fa-solid fa-phone"></i> +91-9606028218</a></li>
+                    <li><a href="mailto:info@dotglobaltech.com"><i class="fa-solid fa-envelope"></i> info@dotglobaltech.com</a></li>
                     <li><i class="fa-solid fa-location-dot"></i> Country: </span><span style="color: #1E1E1E;">India</span></li>
                 </ul>
             </div>
@@ -23,7 +23,7 @@
             <div class="content">
                 <ul class="mb-2 mt-3">
                     <li><a href=""><i class="fa-solid fa-phone"></i> +91 9876543210</a></li>
-                    <li><a href=""><i class="fa-solid fa-envelope"></i> Info@dotglobaltechnologies.com</a></li>
+                    <li><a href="mailto:info@dotglobaltech.com"><i class="fa-solid fa-envelope"></i> info@dotglobaltech.com</a></li>
                     <li><i class="fa-solid fa-location-dot"></i> Country: </span><span style="color: #1E1E1E;">Qatar</span></li>
                 </ul>
             </div>
@@ -35,7 +35,7 @@
             <div class="content">
                 <ul class="mb-2 mt-3">
                     <li><a href=""><i class="fa-solid fa-phone"></i> +91 9876543210</a></li>
-                    <li><a href=""><i class="fa-solid fa-envelope"></i> Info@dotglobaltechnologies.com</a></li>
+                    <li><a href="mailto:info@dotglobaltech.com"><i class="fa-solid fa-envelope"></i> info@dotglobaltech.com</a></li>
                     <li><i class="fa-solid fa-location-dot"></i> Country: </span><span style="color: #1E1E1E;">Singapore</span></li>
                 </ul>
             </div>
@@ -47,7 +47,7 @@
             <div class="content">
                 <ul class="mb-2 mt-3">
                     <li><a href=""><i class="fa-solid fa-phone"></i> +91 9876543210</a></li>
-                    <li><a href=""><i class="fa-solid fa-envelope"></i> Info@dotglobaltechnologies.com</a></li>
+                    <li><a href="mailto:info@dotglobaltech.com"><i class="fa-solid fa-envelope"></i> info@dotglobaltech.com</a></li>
                     <li><i class="fa-solid fa-location-dot"></i> Country: </span><span style="color: #1E1E1E;">Dubai</span></li>
                 </ul>
             </div>

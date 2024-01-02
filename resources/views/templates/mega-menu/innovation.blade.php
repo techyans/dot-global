@@ -1,12 +1,12 @@
 <li class="second" style="max-width: 350px;">
-    <div class="row top" data-bs-toggle="dropdown" aria-expanded="false">
+    <div class="row top">
         <div class="col-3 d-flex align-items-center"><img src="{{asset('storage/images/20231229-121525-673866-Solutions.svg')}}" alt="" class="w-100"></div>
         <div class="col-9 ps-0">
             <p class="m-0 fw-bold">Technologies</p>
             <p class="m-0 desc">Our expertise spans all major technologies and platforms, and advances to innovative technology trends.</p>
         </div>
     </div>
-    <ul class="dropdown-menu border" style="width:100% !important;">
+    <ul class="border" style="width:100% !important;top: -5.5%;">
         <div class="row px-3">
             <div class="col-6">
                 <p>Trending</p>
@@ -39,14 +39,14 @@
     </ul>
 </li>
 <li class="second" style="max-width: 350px;">
-    <div class="row top" data-bs-toggle="dropdown" aria-expanded="false">
+    <div class="row top">
         <div class="col-3 d-flex align-items-center"><img src="{{asset('storage/images/20231229-121524-798281-Services.svg')}}" alt="" class="w-100"></div>
         <div class="col-9 ps-0">
             <p class="m-0 fw-bold">Industries</p>
             <p class="m-0 desc">Our service portfolio covers an entire software development life cycle and meets varied business needs.</p>
         </div>
     </div>
-    <ul class="dropdown-menu border" style="width:112% !important;">
+    <ul class="border" style="width:112% !important;top: -5.5%;">
         <div class="row px-3">
             <div class="col-6 ">
                 <li><a class="dropdown-item" href="#">Financial Services</a></li>

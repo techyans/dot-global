@@ -131,9 +131,9 @@
                                 </div>
                                 <div class="">
                                     <ul>
-                                        <li><a href="tel:+919989977788"><i class="fa-solid fa-phone-volume"></i> +919989977788</a></li>
-                                        <li><a href="mailto:contact@fastensoft.com"><i class="fa-regular fa-envelope"></i> dotglobal@email.com</a></li>
-                                        <li><a href="mailto:contact@fastensoft.com"><i class="fa-solid fa-location-dot"></i> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></li>
+                                        <li><a href="tel:+919606028218"><i class="fa-solid fa-phone-volume"></i> +91-9606028218</a></li>
+                                        <li><a href="mailto:info@dotglobaltech.com"><i class="fa-regular fa-envelope"></i> info@dotglobaltech.com</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> HBR Layout, Bengaluru, Karnataka 560043</a></li>
                                     </ul>
                                 </div>
                             </div>

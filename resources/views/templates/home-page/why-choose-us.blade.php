@@ -30,7 +30,8 @@
                 </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-6">
-                <form action="" method="POST" >
+                <form action="" method="POST" class="footer-form">
+                    @csrf
                     <p class="fw-bold">Send your query</p>
                     <div class="form-group pb-2">
                         <input type="text" name="name" class="form-control shadow-none" placeholder="Your Name" required>
@@ -39,11 +40,12 @@
                         <input type="text" name="phone" class="form-control shadow-none" placeholder="Phone Number" required>
                     </div>
                     <div class="form-group pb-2">
-                        <textarea name="message" rows="3" class="form-control shadow-none" placeholder="Message"></textarea>
+                        <textarea name="message" rows="3" class="form-control shadow-none" placeholder="Message" required></textarea>
                     </div>
                     <div class="form-group">
                         <button class="btn" type="submit">SUBMIT <i class="bi bi-send-fill ms-1"></i></button>
                     </div>
+                    <div class="result"></div>
                 </form>
             </div>
         </div>

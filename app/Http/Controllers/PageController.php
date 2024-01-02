@@ -50,4 +50,16 @@ class PageController extends Controller
             return '<span style="color:red;">Something wrong, Try again!.</span>';
         }
     }
+    public function Footer_Form_Submit(request $req){
+        $name = $req->ff_name;
+        $phone = $req->ff_phone;
+        $message = $req->ff_message;
+        $ip_add = $req->ip();
+        $sql = DB::insert("INSERT INTO footer_form (name,phone,message,ip_add) VALUES ('".$name."','".$phone."','".$message."','".$ip_add."')");
+        if($sql){
+            return '<span style="color:green;font-size:12px; font-weight:500;">Your message successfully sent!</span>';
+        }else{
+            return '<span style="color:red;font-size:12px; font-weight:500;">Something wrong, Try again!.</span>';
+        }
+    }
 }

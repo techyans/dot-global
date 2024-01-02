@@ -1,3 +1,4 @@
+//const action_url = 'https://stage.dotglobaltech.com/';
 const action_url = 'http://127.0.0.1:8000/';
 $('body').on('click','.mobile-nav-bar .first-li>a', function(){
     if($(this).hasClass('active')){
@@ -21,6 +22,31 @@ $('body').on('click','.mobile-nav-bar .main-list', function(){
         $(this).siblings('.mobile-nav-bar .second-list').slideDown(); 
     }
 })
+
+$('body').on('click','.top-nav-items>a',function(e){
+    e.preventDefault();
+    if($(this).hasClass('active')){
+        $(this).removeClass('active');
+        $(this).siblings('.dropdown-menu').slideUp(); 
+    }else{
+        $('.top-nav-items .first').css('display','none');
+        $('.top-nav-items>a').removeClass('active');
+        $(this).addClass('active');
+        $(this).siblings('.dropdown-menu').slideDown(); 
+    }
+});
+$('body').on('click','.top-nav-items .sub-menu .top',function(e){
+    e.preventDefault();
+    if($(this).hasClass('active')){
+        $(this).removeClass('active');
+        $(this).siblings('ul').slideUp(); 
+    }else{
+        $('.top-nav-items .sub-menu ul').css('display','none'); 
+        $('.top-nav-items .sub-menu .top').removeClass('active');
+        $(this).addClass('active');
+        $(this).siblings('ul').slideDown(); 
+    }
+});
 // ================Home page top banner slider======================
 $('.index-page .home-top').slick({
     slidesToShow: 1,
@@ -39,7 +65,7 @@ $('.index-page .top-notch .slides').slick({
     dots:false,
     arrows:false,
     autoplay:true,
-    autoplaySpeed:3000,
+    autoplaySpeed:2000,
     pauseOnHover:true,
     responsive: [
         {
@@ -206,7 +232,7 @@ $(document).ready(function(){
         arrows:false,
         infinite: true,
         autoplay:true,
-        autoplaySpeed:2000,
+        autoplaySpeed:1000,
         responsive: [
             {
                 breakpoint: 991,
@@ -301,6 +327,36 @@ $(document).ready(function(){
             $('.subscriber .result').html('<span style="color:red;">Enter valid email address</span>');
         }
         
+    })
+    $('.footer-form').validate({
+        rules: {
+            required:true,
+        },messages:{
+            name:{
+                required:"Name is required.",
+            },Phone:{
+                required:"Phone number is required.",
+            },message:{
+                required:"Please write your query.",
+            }
+        },submitHandler: function(form,e) {
+            var ff_name = $('.footer-form input[name=name]').val();
+            var ff_phone = $('.footer-form input[name=phone]').val();
+            var ff_message = $('.footer-form textarea[name=message]').val();
+            var token = $('.footer-form input[name="_token"]').val();
+            $.ajax({
+                method: 'POST',
+                url: action_url+'footer-form-submit',
+                data: {ff_name:ff_name, ff_phone:ff_phone, ff_message:ff_message},
+                headers: {
+                    'X-CSRF-TOKEN': token
+                },
+                success: function (response){
+                    $('.footer-form')[0].reset();
+                    $('.footer-form .result').html(response);
+                }
+            });
+        }
     })
 }); 
   

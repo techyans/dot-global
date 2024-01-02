@@ -33,27 +33,27 @@
         </div>
         <div class="text-center">
             <div class="content d-flex align-items-center mx-auto">
-                <img src="{{asset('storage/images/20231228-084749-971638-Tawuniya-min-removebg-preview.png')}}" alt="" class="w-100 p-3">
+                <img src="{{asset('storage/images/20231228-084749-971638-Tawuniya-min-removebg-preview.png')}}" alt="" class="w-100">
             </div>
         </div>
         <div class="text-center">
             <div class="content d-flex align-items-center mx-auto">
-                <img src="{{asset('storage/images/20231228-083215-468831-SAIP-min.png')}}" alt="" class="w-100 p-3">
+                <img src="{{asset('storage/images/20240102-193022-632120-saip-logo.png')}}" alt="" class="w-100">
             </div>
         </div>
         <div class="text-center">
             <div class="content d-flex align-items-center mx-auto">
-                <img src="{{asset('storage/images/20231228-083215-877891-UniGlass.jpeg')}}" alt="" class="w-100 p-3">
+                <img src="{{asset('storage/images/20231228-083215-877891-UniGlass.jpeg')}}" alt="" class="w-100">
             </div>
         </div>
         <div class="text-center">
             <div class="content d-flex align-items-center mx-auto">
-                <img src="{{asset('storage/images/20231228-083215-424126-Urban Hardware-min.png')}}" alt="" class="w-100 p-3">
+                <img src="{{asset('storage/images/20231228-083215-424126-Urban Hardware-min.png')}}" alt="" class="w-100 p-1">
             </div>
         </div>
         <div class="text-center">
             <div class="content d-flex align-items-center mx-auto">
-                <img src="{{asset('storage/images/20231228-083215-857784-wiz-motors-ltd-min.png')}}" alt="" class="w-100 p-3">
+                <img src="{{asset('storage/images/20231228-083215-857784-wiz-motors-ltd-min.png')}}" alt="" class="w-100 p-2">
             </div>
         </div>
         {{-- <div class="row slides justify-content-center">
