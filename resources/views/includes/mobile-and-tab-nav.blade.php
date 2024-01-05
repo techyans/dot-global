@@ -3,7 +3,7 @@
         <div class="content d-flex align-items-center"><img src="{{asset('storage/images/20231112-100532-665798-india-flag.png')}}" alt="" class="me-1">India</div>
     </div>
     <div class="col-6">
-        <div class="content text-center"><a href="tel:+919876543210">+91 9876543210</a></div>
+        <div class="content text-center"><a href="tel:+919876543210"><i class="fa-solid fa-phone"></i> +91 9876543210</a></div>
     </div>
     <div class="col-3 side-nav text-end">
         <div class="content"><span><img src="{{asset('storage/images/20231105-202000-587152-Hamburger.jpg')}}" alt="" class="ms-4 open-left-nav"></span></div>

@@ -30,15 +30,18 @@ header nav ul{
 }
 header nav ul .top-nav-items{
     display: inline-block;
-    margin: 0 25px 0 0;
+    margin: 0 18px 0 0;
     height: 47px;
 }
 header nav ul li a{
-    font-weight: 500;
-    font-size: 13px;
+    font-weight: 600;
+    font-size: 15px;
     color: #1E1E1E;
 }
-header nav ul li a:hover{
+header nav ul li a>i{
+    font-size: 11px;
+}
+header nav ul li a:hover,header nav ul li a.active{
     color: var(--brand-color);
 }
 header .left-nav img{
@@ -192,26 +195,30 @@ header .mobile-nav-drawer{
     z-index: 1031;
     display: none;
 }
+header .mobile-nav .top{
+    padding: 5px 0;
+}
 header .mobile-nav .top .current-country,header .mobile-nav .top a{
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 600;
     color: #1E1E1E;
 }
 header .mobile-nav .top .current-country img{
     max-width: 20px;
 }
 header .mobile-nav .top .side-nav img{
-    max-width: 25px;
+    max-width: 40px;
 }
 header .mobile-nav .bottom {
     border-top: 1px solid #D9D9D9;
     padding: 4px 0;
 }
 header .mobile-nav .bottom i{
-    font-size: 28px;
+    font-size: 50px;
+    color: #6A6A6A;
 }
 header .mobile-nav .bottom img{
-    max-width: 80px;
+    max-width: 130px;
 }
 /* ----Mobile Mega menu---- */
 /* header .mobile-nav-bar li:hover > ul {
@@ -424,7 +431,7 @@ footer .subscriber .result span{
 }
 .index-page .top-section p{
     color: var(--dark-bg-color);
-    font-size: 12px;
+    font-size: 14px;
 }
 .index-page .top-section .btn-full{
     background: var(--brand-color);
@@ -451,10 +458,21 @@ footer .subscriber .result span{
 }
 @media screen and (max-width: 767px) {
     .index-page .top-section .col-12{
-        padding: 60px 0;
+        padding: 40px 0 55px 0;
     }
     .index-page .top-section h1{
-        font-size: 17px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21px;
+        text-align: center;
+    }
+    .index-page .top-section p{
+        font-size: 14px;
+        padding: 10px 30px 0 30px;
+        margin: 0;
+    }
+    .index-page .top-section .links{
+        margin: 0 !important;
     }
     .index-page .top-section .btn-full,.index-page .top-section .grad{
         font-size: 12px;
@@ -472,7 +490,7 @@ footer .subscriber .result span{
 /* -------Trusted client---------- */
 .index-page .trusted-client  {
     background: #F7F7F7;
-    padding: 40px 0 10px 0;
+    padding: 40px 0 0 0;
 
 }
 .index-page .trusted-client h2{
@@ -480,11 +498,15 @@ footer .subscriber .result span{
     font-size: 30px;
     font-weight: 600;
 }
+.index-page .trusted-client p{
+    font-size: 14px;
+}
 .index-page .trusted-client .brands {
     padding: 70px 0;
-    background-image: url('http://127.0.0.1:8000/storage/images/20231210-191321-758073-map.svg');
+    background-image: url('http://stage.dotglobaltech.com/storage/images/20231210-191321-758073-map.svg');
     background-repeat: no-repeat;
     background-position: center center;
+    background-color: #F7F7F7;
 }
 .index-page .trusted-client .brands .content{
     max-width: 160px;
@@ -497,11 +519,15 @@ footer .subscriber .result span{
 }
 
 @media screen and (max-width: 767px) {
+    .index-page .trusted-client  {
+        background: #F7F7F7;
+        padding: 20px 0 10px 0;
+    }
     .index-page .trusted-client h2{
-        font-size: 17px;
+        font-size: 18px;
     }
     .index-page .trusted-client p{
-        font-size: 12px;
+        text-align: center;
     }
     .index-page .trusted-client .brands {
         padding: 40px 0;
@@ -520,9 +546,6 @@ footer .subscriber .result span{
 @media (min-width: 768px) and (max-width: 991px) {
     .index-page .trusted-client h2{
         font-size: 24px;
-    }
-    .index-page .trusted-client p{
-        font-size: 12px;
     }
     .index-page .trusted-client .brands {
         padding: 50px 0;
@@ -631,17 +654,19 @@ footer .subscriber .result span{
     margin: 0;
 }
 .index-page .wwd .mobile .accordion-header .row{
-    padding: 0px 0 8px;
+    padding: 0;
+    padding: 17px 0;
 }
 .index-page .wwd .mobile .accordion-header p{
-    margin: 10px 0 0 0;
+    margin: 0;
+    font-size: 18px;
 }
 .index-page .wwd .mobile .accordion-header.active{
     background: var(--brand-color);
     color: var(--dark-bg-color);
 }
 .index-page .wwd .mobile .service-icon i{
-    font-size: 16px;
+    font-size: 25px;
     text-align: center;
 }
 .index-page .wwd .mobile .toggle i{
@@ -653,7 +678,7 @@ footer .subscriber .result span{
 }
 .index-page .wwd .mobile .accordion-item{
     border: 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1.5px solid #D9D9D9;
 }
 .index-page .wwd .mobile .details p{
     font-size: 11px;
@@ -666,11 +691,24 @@ footer .subscriber .result span{
     padding: 6px 6px 3px 5px;
     border-radius: 3px;
 }
+@media screen and (max-width: 767px) {
+    .index-page .wwd{
+        padding-bottom: 25px;
+    }
+    .index-page .wwd h2{
+        font-size: 18px;
+        margin: 0 0 20px 0;
+        text-align: center;
+    }
+}
 /* -------our solution------------ */
 .index-page .our-solution h2{
     color: #222222;
     font-size: 30px;
     font-weight: 600;
+}
+.index-page .our-solution p{
+    font-size: 14px;
 }
 .index-page .our-solution .section{
     background: #F7F7F7;
@@ -701,11 +739,10 @@ footer .subscriber .result span{
 }
 @media screen and (max-width: 767px) {
     .index-page .our-solution h2{
-        font-size: 17px;
+        font-size: 18px;
         text-align: center;
     }
     .index-page .our-solution p{
-        font-size: 12px;
         text-align: center;
     }
     .index-page .our-solution .bottom-section{
@@ -716,7 +753,7 @@ footer .subscriber .result span{
         margin: 0 0 20px;
         padding: 5px;
         border-radius: 50px;
-        font-size: 9px;
+        font-size: 12px;
         transition: .3s;
         letter-spacing: .3px;
         height: 40px;
@@ -727,14 +764,120 @@ footer .subscriber .result span{
     .index-page .our-solution h2{
         font-size: 24px;
     } 
-    .index-page .our-solution p{
-        font-size: 12px;
-    }
     .index-page .our-solution .section{
         margin: 0 0 20px;
         font-size: 10px;
         height: 40px;
         padding: 5px;
+    }
+}
+/* ---------top notch section---------- */
+.index-page .top-notch {
+    padding: 30px 0;
+}
+.index-page .top-notch h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0 30px 0;
+}
+.index-page .top-notch .content{
+    height: 100%;
+    padding: 20px;
+    background: linear-gradient(to bottom, var(--brand-color) 0%, var(--brand-color) 50%, #ffffff 50%, #ffffff 100%);
+    background-size: 100% 200%; /* Initial background size */
+    transition: background-position 0.5s ease; /* Transition effect */
+    background-position: 0 100%;
+}
+.index-page .top-notch .content:hover{
+    background-position: 0 75%;
+}
+.index-page .top-notch .content:hover img{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(99deg) brightness(108%) contrast(101%);
+}
+.index-page .top-notch .content img{
+    width: 90px;
+    max-width: 90px;
+    margin: 0 0 25px 0;
+    height: 60px;
+}
+.index-page .top-notch .service-list{
+    padding: 10px 0 10px 15px;
+    height: 190px;
+}
+.index-page .top-notch .service-list p{
+    font-size: 13px;
+    margin: 0 0 6px 0;
+    transition: .3s;
+}
+.index-page .top-notch .service-list p:hover{
+    letter-spacing: 0.5px;
+    color: var(--brand-color);
+}
+.index-page .top-notch .content .sp1{
+    background: #1e9fe09a;
+    height: 16px;
+    width: 16px;
+    border-radius: 100px;
+    position: absolute;
+    left: -18px;
+    top: 2px;
+}
+.index-page .top-notch .content .sp1 span{
+    height: 8px;
+    width: 8px;
+    background: var(--brand-color);
+    border-radius: 100px;
+    position: absolute;
+    margin: 4px
+}
+.index-page .top-notch .content .btn{
+    color: var(--dark-bg-color);
+    background: var(--brand-color);
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.index-page .top-notch .slick-slide {
+    margin: 0 15px;
+}
+.index-page .top-notch .slick-list {
+    margin: 0 !important;
+}
+@media screen and (max-width: 767px) {
+    .index-page .top-notch {
+        padding: 30px 15px;
+    }
+    .index-page .top-notch h2{
+        font-size: 18px;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    .index-page .top-notch .top p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .index-page .top-notch .slick-slide {
+        margin: 0px;
+    }
+    .index-page .top-notch .service-list p{
+        font-size: 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .index-page .top-notch {
+        padding: 30px 15px;
+    }
+    .index-page .top-notch h2{
+        font-size: 24px;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    .index-page .top-notch .top p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .index-page .top-notch .slick-slide {
+        margin: 10px;
     }
 }
 /*---------technologies section---------- */
@@ -796,13 +939,16 @@ footer .subscriber .result span{
 }
 @media screen and (max-width: 767px) {
     .index-page .technologies .top-sec h2{
-        font-size: 17px;
-    }
-    .index-page .technologies .top-sec p{
-        font-size: 12px;
+        font-size: 18px;
     }
     .index-page .technologies .tech-type h3{
         font-size: 15px;
+    }
+    .index-page .technologies h3.mobile{
+        margin-bottom: 0 !important;
+    }
+    .index-page .technologies .heading p.mobile{
+        margin-top: 0 !important;
     }
     .index-page .technologies .slides{
         height: 50px;
@@ -832,7 +978,6 @@ footer .subscriber .result span{
         font-size: 24px;
     }
     .index-page .technologies .top-sec p{
-        font-size: 12px;
         margin: 0;
     }
     .index-page .technologies .tech-type h3{
@@ -863,6 +1008,11 @@ footer .subscriber .result span{
     }
 }
 /* ---------counter section---------- */
+.index-page .counters{
+    background: url('https://stage.dotglobaltech.com/storage/images/20231111-221620-481692-dgt-top-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .index-page .counters .row{
     padding: 10px 0;
 }
@@ -883,14 +1033,11 @@ footer .subscriber .result span{
     word-wrap: break-word
 }
 @media screen and (max-width: 767px) {
-    .index-page .counters .row{
-        padding: 0;
-    }
     .index-page .counters i{
         font-size: 20px;
     }
     .index-page .counters .value{
-        font-size: 18px;
+        font-size: 16px;
     }
     .index-page .counters p{
         font-size: 9px !important;
@@ -932,7 +1079,7 @@ footer .subscriber .result span{
         padding: 10px;
     }
     .index-page .service-brand{
-        padding: 30px 0;
+        padding: 10px 0;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -948,7 +1095,7 @@ footer .subscriber .result span{
     margin: 0;
 }
 .index-page .emerging-tech p{
-    font-size: 12px;
+    font-size: 14px;
     margin: 0;
 }
 .index-page .emerging-tech .nav-link{
@@ -973,7 +1120,7 @@ footer .subscriber .result span{
     color: var(--dark-bg-color);
 }
 .index-page .emerging-tech .nav-link p{
-    font-size: 12px;
+    font-size: 14px;
     color: #000;
 }
 .index-page .emerging-tech h3{
@@ -985,7 +1132,7 @@ footer .subscriber .result span{
     text-decoration-color: var(--brand-color);
 }
 .index-page .emerging-tech .bottom-content p{
-    font-size: 12px;
+    font-size: 14px;
 }
 .index-page .emerging-tech .bottom-content i{
     background: transparent;
@@ -997,7 +1144,7 @@ footer .subscriber .result span{
 }
 @media screen and (max-width: 767px) {
     .index-page .emerging-tech .top h2{
-        font-size: 17px;
+        font-size: 18px;
     }
     .index-page .emerging-tech .bottom-content i{
         border-bottom: none;
@@ -1024,113 +1171,6 @@ footer .subscriber .result span{
     padding: 7px;
     border-radius: 3px;
 }
-
-/* ---------top notch section---------- */
-.index-page .top-notch {
-    padding: 30px 0;
-}
-.index-page .top-notch h2{
-    font-size: 30px;
-    font-weight: 600;
-    margin: 30px 0 30px 0;
-}
-.index-page .top-notch .content{
-    height: 100%;
-    padding: 20px;
-    background: linear-gradient(to bottom, var(--brand-color) 0%, var(--brand-color) 50%, #ffffff 50%, #ffffff 100%);
-    background-size: 100% 200%; /* Initial background size */
-    transition: background-position 0.5s ease; /* Transition effect */
-    background-position: 0 100%;
-}
-.index-page .top-notch .content:hover{
-    background-position: 0 77%;
-}
-.index-page .top-notch .content:hover img{
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(99deg) brightness(108%) contrast(101%);
-}
-.index-page .top-notch .content img{
-    width: 50px;
-    max-width: 50px;
-    margin: 0 0 15px 0;
-    height: 35px;
-}
-.index-page .top-notch .service-list{
-    padding: 10px 0 10px 15px;
-    height: 150px;
-}
-.index-page .top-notch .service-list p{
-    font-size: 12px;
-    margin: 0 0 6px 0;
-    transition: .3s;
-}
-.index-page .top-notch .service-list p:hover{
-    letter-spacing: 0.5px;
-    color: var(--brand-color);
-}
-.index-page .top-notch .content .sp1{
-    background: #1e9fe09a;
-    height: 16px;
-    width: 16px;
-    border-radius: 100px;
-    position: absolute;
-    left: -18px;
-    top: 2px;
-}
-.index-page .top-notch .content .sp1 span{
-    height: 8px;
-    width: 8px;
-    background: var(--brand-color);
-    border-radius: 100px;
-    position: absolute;
-    margin: 4px
-}
-.index-page .top-notch .content .btn{
-    color: var(--dark-bg-color);
-    background: var(--brand-color);
-    font-size: 13px;
-    font-weight: 500;
-    margin-top: 20px;
-}
-.index-page .top-notch .slick-slide {
-    margin: 0 15px;
-}
-.index-page .top-notch .slick-list {
-    margin: 0 !important;
-}
-@media screen and (max-width: 767px) {
-    .index-page .top-notch {
-        padding: 30px 15px;
-    }
-    .index-page .top-notch h2{
-        font-size: 17px;
-        text-align: center;
-        margin: 0 0 20px 0;
-    }
-    .index-page .top-notch .top p{
-        font-size: 12px;
-        text-align: center;
-    }
-    .index-page .top-notch .slick-slide {
-        margin: 0px;
-    }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-    .index-page .top-notch {
-        padding: 30px 15px;
-    }
-    .index-page .top-notch h2{
-        font-size: 24px;
-        text-align: center;
-        margin: 0 0 20px 0;
-    }
-    .index-page .top-notch .top p{
-        font-size: 12px;
-        text-align: center;
-    }
-    .index-page .top-notch .slick-slide {
-        margin: 10px;
-    }
-}
 /* ---------Bussiness challange section---------- */
 .index-page .bussiness-challange{
     padding: 40px 0;
@@ -1150,7 +1190,7 @@ footer .subscriber .result span{
     list-style: none;
 }
 .index-page .bussiness-challange ul li p{
-    font-size: 12px;
+    font-size: 14px;
     margin: 0 0 0 10px;
 }
 .index-page .bussiness-challange .img-heading .position-absolute{
@@ -1176,7 +1216,7 @@ footer .subscriber .result span{
     display: inline-flex
 }
 .index-page .bussiness-challange .tools p{
-    font-size: 13px;
+    font-size: 14px;
     margin: 5px 0;
     text-align: center;
 }
@@ -1205,24 +1245,24 @@ footer .subscriber .result span{
 }
 @media screen and (max-width: 767px) {
     .index-page .bussiness-challange .heading h2{
-        font-size: 17px;
+        font-size: 18px;
         text-align: center;
     }
     .index-page .bussiness-challange .heading p{
-        font-size: 12px;
+        font-size: 14px;
         text-align: center;
     }
     .index-page .bussiness-challange ul img{
         max-width: 30px;
     }
     .index-page .bussiness-challange ul li p{
-        font-size: 10px;
+        font-size: 12px;
         margin: 0 0 0 5px;
     }
     .index-page .bussiness-challange .img-heading .position-absolute,.index-page .bussiness-challange .details{
         top: 5px;
         left: 35px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .index-page .bussiness-challange .slick-dots li {
         height: 7px;
@@ -1258,7 +1298,7 @@ footer .subscriber .result span{
         top: 15px;
     }
     .index-page .bussiness-challange .details{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 /* ---------testimonial section---------- */
@@ -1271,7 +1311,7 @@ footer .subscriber .result span{
     margin: 0 0 20px 0;
 }
 .index-page .testimonial .top-content p{
-    font-size: 12px;
+    font-size: 14px;
     margin: 0 0 30px 0;
 }
 .index-page .testimonial .images img{
@@ -1280,7 +1320,7 @@ footer .subscriber .result span{
 .index-page .testimonial ul li{
     list-style: none;
     display: inline-block;
-    font-size: 13px;
+    font-size: 14px;
     color: var(--dark-bg);
 }
 .index-page .testimonial ul li img{
@@ -1297,7 +1337,7 @@ footer .subscriber .result span{
     color: #FED51B;
 }
 .index-page .testimonial .content p{
-    font-size: 13px;
+    font-size: 14px;
 }
 .index-page .testimonial .slick-dots button{
     display: none;
@@ -1325,10 +1365,10 @@ footer .subscriber .result span{
         display: none;
     }
     .index-page .testimonial h2{
-        font-size: 17px;
+        font-size: 18px;
     }
     .index-page .testimonial .top-content p,.index-page .testimonial .content p{
-        font-size: 11px;
+        font-size: 14px;
     }
     .index-page .testimonial .slick-dots li{
         height: 7px;
@@ -1344,7 +1384,7 @@ footer .subscriber .result span{
         max-height: 200px;
     }
     .index-page .testimonial .content p{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 /* ---------Why choose us---------- */
@@ -1388,7 +1428,7 @@ footer .subscriber .result span{
     background-color: #3498db;
     width: 14px;
     height: 14px;
-    font-size: 10px;
+    font-size: 11px;
     text-align: center;
     position: absolute;
     left: -10px;
@@ -1405,11 +1445,11 @@ footer .subscriber .result span{
     text-decoration: none;
 }
 .wcu .form-section p{
-    font-size: 13px;
+    font-size: 14px;
 }
 .wcu .form-section ul li{
     list-style: none;
-    font-size: 11px;
+    font-size: 14px;
     margin: 0 0 18px 0;
     font-weight: 500;
     line-height: 22px;
@@ -1448,7 +1488,7 @@ footer .subscriber .result span{
         padding: 0 0 210px 0;
     }
     .wcu h2{
-        font-size: 17px;
+        font-size: 18px;
         text-align: center;
         margin: 0 0 30px 0;
     }
@@ -1477,8 +1517,15 @@ footer .subscriber .result span{
         padding: 15px 0;
         width: auto !important;
     }
-    .wcu .form-section p,.wcu .form-section li{
-        font-size: 12px;
+    .wcu .form-section li{
+        font-size: 14px;
+    }
+    .wcu .form-section p{
+        font-size: 14px;
+        padding-bottom: 14px;
+    }
+    .wcu .form-section .btn{
+        float: right;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
