@@ -1,8 +1,8 @@
-<div class="row desktop d-none d-md-block">
+<div class="row desktop">
     <div class="col-12">
         <h2>What We Do</h2>
     </div>
-    <div class="col-12">
+    <div class="col-12 d-none d-md-block">
         <div class="row list">
             <div class="nav flex-column nav-pills col-5 col-lg-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <button class="nav-link active" id="v-pills-sd-tab" data-bs-toggle="pill" data-bs-target="#v-pills-sd" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">

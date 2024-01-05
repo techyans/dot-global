@@ -4,11 +4,11 @@
         <p>DGT collaborates with the latest trending technologies and platforms to deliver innovative solutions.</p>
     </div>
     <div class="col-12 tech-type">
-        <h3>Web</h3>
+        <h3 class="mobile">Web</h3>
     </div>
     <div class="col-12 col-md-6 col-lg-6 section">
         <div class="heading">
-            <p>BACK END</p>
+            <p class="mobile">BACK END</p>
         </div>
         <div class="slides">
             <div class="slide">
@@ -520,6 +520,6 @@
         </div>
     </div>
     <div class="col-12 show-more">
-        <button class="w-100 btn rounded-0 border-0">View More <i class="bi bi-arrow-down ms-2 "></i></button>
+        <button class="w-100 btn rounded-0 border-0"><span>View More <i class="bi bi-arrow-down ms-2 "></i></span></button>
     </div>
 </div>
